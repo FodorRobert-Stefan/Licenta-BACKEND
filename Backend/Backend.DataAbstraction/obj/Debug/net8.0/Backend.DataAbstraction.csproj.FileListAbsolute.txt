@@ -1,0 +1,12 @@
+C:\Users\fodor\Desktop\Licenta-BACKEND\Backend\Backend.DataAbstraction\bin\Debug\net8.0\Backend.DataAbstraction.deps.json
+C:\Users\fodor\Desktop\Licenta-BACKEND\Backend\Backend.DataAbstraction\bin\Debug\net8.0\Backend.DataAbstraction.dll
+C:\Users\fodor\Desktop\Licenta-BACKEND\Backend\Backend.DataAbstraction\bin\Debug\net8.0\Backend.DataAbstraction.pdb
+C:\Users\fodor\Desktop\Licenta-BACKEND\Backend\Backend.DataAbstraction\obj\Debug\net8.0\Backend.DataAbstraction.csproj.AssemblyReference.cache
+C:\Users\fodor\Desktop\Licenta-BACKEND\Backend\Backend.DataAbstraction\obj\Debug\net8.0\Backend.DataAbstraction.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\fodor\Desktop\Licenta-BACKEND\Backend\Backend.DataAbstraction\obj\Debug\net8.0\Backend.DataAbstraction.AssemblyInfoInputs.cache
+C:\Users\fodor\Desktop\Licenta-BACKEND\Backend\Backend.DataAbstraction\obj\Debug\net8.0\Backend.DataAbstraction.AssemblyInfo.cs
+C:\Users\fodor\Desktop\Licenta-BACKEND\Backend\Backend.DataAbstraction\obj\Debug\net8.0\Backend.DataAbstraction.csproj.CoreCompileInputs.cache
+C:\Users\fodor\Desktop\Licenta-BACKEND\Backend\Backend.DataAbstraction\obj\Debug\net8.0\Backend.DataAbstraction.dll
+C:\Users\fodor\Desktop\Licenta-BACKEND\Backend\Backend.DataAbstraction\obj\Debug\net8.0\refint\Backend.DataAbstraction.dll
+C:\Users\fodor\Desktop\Licenta-BACKEND\Backend\Backend.DataAbstraction\obj\Debug\net8.0\Backend.DataAbstraction.pdb
+C:\Users\fodor\Desktop\Licenta-BACKEND\Backend\Backend.DataAbstraction\obj\Debug\net8.0\ref\Backend.DataAbstraction.dll
