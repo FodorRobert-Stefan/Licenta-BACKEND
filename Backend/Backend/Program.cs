@@ -5,7 +5,10 @@ using Backend.CommonDomain.UserCommon;
 using Backend.DataAbstraction;
 using Backend.Database;
 using Backend.Domain.UserDomain;
+using Backend.Extensions;
+using Backend.Middleware;
 using Backend.Services;
+using FluentValidation;
 using FluentValidation.AspNetCore;
 using MediatR;
 using Microsoft.Extensions.DependencyModel;
@@ -57,14 +60,14 @@ internal class Program
     {
       cfg.RegisterServicesFromAssemblies(assemblies);
     });
-    builder.Services.AddTransient<IRequestHandler<GenericCreateRequest<CreateUserDto, User>, GenericCreateResponse>, GenericCreateHandler<CreateUserDto, User>>();
-    builder.Services.AddTransient<IRequestHandler<GenericGetByIdRequest<CreateUserDto, User>, GenericGetByIdResponse<CreateUserDto>>, GenericGetByIdHandler<User, CreateUserDto>>();
-    builder.Services.AddTransient<IRequestHandler<GenericGetByFilterRequest<GetUserDto, User>, GenericGetByFilterResponse<GetUserDto>>, GenericGetByFilterHandler<GetUserDto, User>>();
+
+    builder.Services.AddUserServices();
 
     builder.Services.AddFluentValidation(cfg =>
     {
       cfg.RegisterValidatorsFromAssemblies(assemblies);
     });
+    builder.Services.AddTransient(typeof(IPipelineBehavior<,>), typeof(ValidationBehavior<,>));
 
     builder.Services.AddScoped(typeof(IRequestHandler<,>), typeof(GenericCreateHandler<,>));
 
@@ -94,6 +97,7 @@ internal class Program
     app.UseAuthorization();
     app.UseCors();
     app.MapControllers();
+    app.UseMiddleware<GlobalExceptionMiddleware>();
 
     app.Run();
   }

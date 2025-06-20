@@ -2,20 +2,11 @@
 
 namespace Backend.BusinessLogic
 {
-  public class ServiceException : System.Exception
+  public class ServiceException : BaseException
   {
-    public HttpStatusCode StatusCode { get; }
-
     public ServiceException(HttpStatusCode statusCode, string message)
-        : base(message)
+        : base(statusCode, message)
     {
-      StatusCode = statusCode;
-    }
-
-    public ServiceException(HttpStatusCode statusCode, string message, System.Exception innerException)
-        : base(message, innerException)
-    {
-      StatusCode = statusCode;
     }
   }
 }

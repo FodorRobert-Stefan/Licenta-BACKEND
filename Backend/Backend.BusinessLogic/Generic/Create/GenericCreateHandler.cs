@@ -26,12 +26,8 @@ namespace Backend.BusinessLogic.Generic.Create
       }
       catch (RepositorieException e)
       {
-        return new GenericCreateResponse
-        {
-          Message = e.Message,
-          HttpStatusCode = e.StatusCode,
-          Id = string.Empty
-        };
+        return (GenericCreateResponse)e.GetResponse();
+
       }
     }
   }

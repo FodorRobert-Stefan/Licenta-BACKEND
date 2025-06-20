@@ -38,9 +38,6 @@
               },
               "C:\\Users\\fodor\\Desktop\\Licenta-BACKEND\\Backend\\Backend.DataAbstraction\\Backend.DataAbstraction.csproj": {
                 "projectPath": "C:\\Users\\fodor\\Desktop\\Licenta-BACKEND\\Backend\\Backend.DataAbstraction\\Backend.DataAbstraction.csproj"
-              },
-              "C:\\Users\\fodor\\Desktop\\Licenta-BACKEND\\Backend\\Backend.Service\\Backend.Service.csproj": {
-                "projectPath": "C:\\Users\\fodor\\Desktop\\Licenta-BACKEND\\Backend\\Backend.Service\\Backend.Service.csproj"
               }
             }
           }
@@ -71,6 +68,10 @@
             "MediatR": {
               "target": "Package",
               "version": "[12.5.0, )"
+            },
+            "Microsoft.AspNetCore.Http": {
+              "target": "Package",
+              "version": "[2.3.0, )"
             }
           },
           "imports": [
@@ -497,6 +498,9 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
+              "C:\\Users\\fodor\\Desktop\\Licenta-BACKEND\\Backend\\Backend.BusinessLogic\\Backend.BusinessLogic.csproj": {
+                "projectPath": "C:\\Users\\fodor\\Desktop\\Licenta-BACKEND\\Backend\\Backend.BusinessLogic\\Backend.BusinessLogic.csproj"
+              },
               "C:\\Users\\fodor\\Desktop\\Licenta-BACKEND\\Backend\\Backend.DataAbstraction\\Backend.DataAbstraction.csproj": {
                 "projectPath": "C:\\Users\\fodor\\Desktop\\Licenta-BACKEND\\Backend\\Backend.DataAbstraction\\Backend.DataAbstraction.csproj"
               }

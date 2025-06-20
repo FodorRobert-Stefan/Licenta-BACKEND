@@ -13,3 +13,4 @@ C:\Users\fodor\Desktop\Licenta-BACKEND\Backend\Backend.CommonDomain\obj\Debug\ne
 C:\Users\fodor\Desktop\Licenta-BACKEND\Backend\Backend.CommonDomain\obj\Debug\net8.0\refint\Backend.CommonDomain.dll
 C:\Users\fodor\Desktop\Licenta-BACKEND\Backend\Backend.CommonDomain\obj\Debug\net8.0\Backend.CommonDomain.pdb
 C:\Users\fodor\Desktop\Licenta-BACKEND\Backend\Backend.CommonDomain\obj\Debug\net8.0\ref\Backend.CommonDomain.dll
+C:\Users\fodor\Desktop\Licenta-BACKEND\Backend\Backend.CommonDomain\obj\Debug\net8.0\Backend.CommonDomain.sourcelink.json

@@ -12,5 +12,6 @@ public class AutoMapperProfile : Profile
       dest.Salt = src.Security.Salt;
     });
     CreateMap<GetUserDto, User>();
+    
   }
 }

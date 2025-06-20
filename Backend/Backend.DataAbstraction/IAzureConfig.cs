@@ -13,6 +13,9 @@ namespace Backend.DataAbstraction
     string ClientSecret { get; }
     string Scope { get; }
     string GraphApiBaseUrl { get; }
+    string VerifiedDomain { get; }
+    public string AppendVerifiedDomain(string userPrincipalName);
+    public string RemoveDomain(string userPrincipalName);
   }
 
 }

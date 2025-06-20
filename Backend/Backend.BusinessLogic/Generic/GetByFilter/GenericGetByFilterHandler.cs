@@ -31,11 +31,7 @@ namespace Backend.BusinessLogic.Generic.Get
       }
       catch (RepositorieException e)
       {
-        return new GenericGetByFilterResponse<TDto>
-        {
-          Message = e.Message,
-          HttpStatusCode = e.StatusCode
-        };
+        return (GenericGetByFilterResponse<TDto>)e.GetResponse();
       }
     }
   }

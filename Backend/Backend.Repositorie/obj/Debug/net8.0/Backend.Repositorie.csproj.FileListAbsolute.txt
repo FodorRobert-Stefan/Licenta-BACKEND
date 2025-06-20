@@ -10,14 +10,13 @@ C:\Users\fodor\Desktop\Licenta-BACKEND\Backend\Backend.Repositorie\bin\Debug\net
 C:\Users\fodor\Desktop\Licenta-BACKEND\Backend\Backend.Repositorie\bin\Debug\net8.0\Backend.CommonDomain.dll
 C:\Users\fodor\Desktop\Licenta-BACKEND\Backend\Backend.Repositorie\bin\Debug\net8.0\Backend.DataAbstraction.dll
 C:\Users\fodor\Desktop\Licenta-BACKEND\Backend\Backend.Repositorie\bin\Debug\net8.0\Backend.Domain.dll
-C:\Users\fodor\Desktop\Licenta-BACKEND\Backend\Backend.Repositorie\bin\Debug\net8.0\Backend.Service.dll
 C:\Users\fodor\Desktop\Licenta-BACKEND\Backend\Backend.Repositorie\bin\Debug\net8.0\Backend.BusinessLogic.pdb
 C:\Users\fodor\Desktop\Licenta-BACKEND\Backend\Backend.Repositorie\bin\Debug\net8.0\Backend.DataAbstraction.pdb
 C:\Users\fodor\Desktop\Licenta-BACKEND\Backend\Backend.Repositorie\bin\Debug\net8.0\Backend.Domain.pdb
 C:\Users\fodor\Desktop\Licenta-BACKEND\Backend\Backend.Repositorie\bin\Debug\net8.0\Backend.CommonDomain.pdb
-C:\Users\fodor\Desktop\Licenta-BACKEND\Backend\Backend.Repositorie\bin\Debug\net8.0\Backend.Service.pdb
 C:\Users\fodor\Desktop\Licenta-BACKEND\Backend\Backend.Repositorie\obj\Debug\net8.0\Backend..AC9B9E30.Up2Date
 C:\Users\fodor\Desktop\Licenta-BACKEND\Backend\Backend.Repositorie\obj\Debug\net8.0\Backend.Repositorie.dll
 C:\Users\fodor\Desktop\Licenta-BACKEND\Backend\Backend.Repositorie\obj\Debug\net8.0\refint\Backend.Repositorie.dll
 C:\Users\fodor\Desktop\Licenta-BACKEND\Backend\Backend.Repositorie\obj\Debug\net8.0\Backend.Repositorie.pdb
 C:\Users\fodor\Desktop\Licenta-BACKEND\Backend\Backend.Repositorie\obj\Debug\net8.0\ref\Backend.Repositorie.dll
+C:\Users\fodor\Desktop\Licenta-BACKEND\Backend\Backend.Repositorie\obj\Debug\net8.0\Backend.Repositorie.sourcelink.json

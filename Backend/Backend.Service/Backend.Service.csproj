@@ -12,6 +12,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\Backend.BusinessLogic\Backend.BusinessLogic.csproj" />
     <ProjectReference Include="..\Backend.DataAbstraction\Backend.DataAbstraction.csproj" />
   </ItemGroup>
 

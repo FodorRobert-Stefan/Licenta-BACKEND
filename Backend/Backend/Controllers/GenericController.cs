@@ -1,5 +1,7 @@
-﻿using Backend.BusinessLogic.Generic.Create;
+﻿using Backend.BusinessLogic.Exception;
+using Backend.BusinessLogic.Generic.Create;
 using Backend.BusinessLogic.Generic.Get;
+using Backend.BusinessLogic.Response;
 using Backend.CommonDomain.UserCommon;
 using Backend.DataAbstraction;
 using Backend.Domain.UserDomain;
@@ -16,29 +18,26 @@ namespace Backend.Controllers
     private readonly IMediator mediator;
     private readonly IHashingGenerator hashingGenerator;
     private readonly IAzureService azureService;
+    private readonly UserModifierFactory modifierFactory;
 
-    public GenericController(IMediator mediator, IHashingGenerator hashingGenerator, IAzureService azureService)
+    public GenericController(IMediator mediator, IHashingGenerator hashingGenerator, IAzureService azureService, UserModifierFactory userModifierFactory)
     {
       this.mediator = mediator;
       this.hashingGenerator = hashingGenerator;
       this.azureService = azureService;
+      this.modifierFactory = userModifierFactory;
     }
 
     [HttpPost(nameof(User))]
     public async Task<IActionResult> CreateUser([FromBody] CreateUserDto request, CancellationToken cancellationToken)
     {
-      GenericCreateRequest<CreateUserDto, User> createRequest = new(request, user =>
-      {
-        var salt = hashingGenerator.GenerateSalt();
-        user.Security ??= new();
-        user.Security.Salt = salt;
-        user.Password = hashingGenerator.HashPassword(user.Password, salt);
-      });
+      var modifier = this.modifierFactory.CreateModifier(request.Password);
+      var createRequest = new GenericCreateRequest<CreateUserDto, User>(request, modifier);
       var response = await this.mediator.Send(createRequest, cancellationToken);
       await this.azureService.CreateUserAsync(request.Email, request.Email, request.Password);
       return this.ReturnResponse(response);
     }
-    [HttpGet(nameof(User)+"/{id}")]
+    [HttpGet(nameof(User) + "/{id}")]
     public async Task<IActionResult> CreateUser(string id, CancellationToken cancellationToken)
     {
       GenericGetByIdRequest<CreateUserDto, User> getRequest = new(id);

@@ -15,3 +15,4 @@ C:\Users\fodor\Desktop\Licenta-BACKEND\Backend\Backend.Domain\obj\Debug\net8.0\B
 C:\Users\fodor\Desktop\Licenta-BACKEND\Backend\Backend.Domain\obj\Debug\net8.0\refint\Backend.Domain.dll
 C:\Users\fodor\Desktop\Licenta-BACKEND\Backend\Backend.Domain\obj\Debug\net8.0\Backend.Domain.pdb
 C:\Users\fodor\Desktop\Licenta-BACKEND\Backend\Backend.Domain\obj\Debug\net8.0\ref\Backend.Domain.dll
+C:\Users\fodor\Desktop\Licenta-BACKEND\Backend\Backend.Domain\obj\Debug\net8.0\Backend.Domain.sourcelink.json

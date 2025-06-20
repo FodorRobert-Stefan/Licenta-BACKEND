@@ -17,3 +17,4 @@ C:\Users\fodor\Desktop\Licenta-BACKEND\Backend\Backend.Database\obj\Debug\net8.0
 C:\Users\fodor\Desktop\Licenta-BACKEND\Backend\Backend.Database\obj\Debug\net8.0\refint\Backend.Database.dll
 C:\Users\fodor\Desktop\Licenta-BACKEND\Backend\Backend.Database\obj\Debug\net8.0\Backend.Database.pdb
 C:\Users\fodor\Desktop\Licenta-BACKEND\Backend\Backend.Database\obj\Debug\net8.0\ref\Backend.Database.dll
+C:\Users\fodor\Desktop\Licenta-BACKEND\Backend\Backend.Database\obj\Debug\net8.0\Backend.Database.sourcelink.json

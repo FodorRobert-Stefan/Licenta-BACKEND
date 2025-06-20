@@ -26,11 +26,7 @@ namespace Backend.BusinessLogic.Generic.Get
       }
       catch (RepositorieException e)
       {
-        return new GenericGetByIdResponse<TDto>
-        {
-          HttpStatusCode = e.StatusCode,
-          Message = e.Message,
-        };
+        return (GenericGetByIdResponse<TDto>)(e.GetResponse());
       }
     }
   }

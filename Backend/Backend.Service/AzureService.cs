@@ -2,6 +2,8 @@
 using System.Net.Http.Headers;
 using System.Text.Json;
 using System.Text;
+using Backend.BusinessLogic;
+using System.Net;
 
 public class AzureService : IAzureService
 {
@@ -42,8 +44,8 @@ public class AzureService : IAzureService
 
   public async Task<string> CreateUserAsync(string displayName, string userPrincipalName, string password)
   {
+    userPrincipalName = this._config.AppendVerifiedDomain(userPrincipalName);
     var token = await GenerateAccessTokenAsync();
-
     var userPayload = new
     {
       accountEnabled = true,
@@ -60,9 +62,23 @@ public class AzureService : IAzureService
     var req = new HttpRequestMessage(HttpMethod.Post, $"{_config.GraphApiBaseUrl}/users");
     req.Headers.Authorization = new AuthenticationHeaderValue("Bearer", token);
     req.Content = new StringContent(JsonSerializer.Serialize(userPayload), Encoding.UTF8, "application/json");
-
     var resp = await _httpClient.SendAsync(req);
-    resp.EnsureSuccessStatusCode();
+    if (!resp.IsSuccessStatusCode)
+    {
+      var rawContent = await resp.Content.ReadAsStringAsync();
+
+      if (resp.StatusCode == HttpStatusCode.BadRequest &&
+          rawContent.Contains("password", StringComparison.OrdinalIgnoreCase) &&
+          rawContent.Contains("complexity", StringComparison.OrdinalIgnoreCase))
+      {
+        throw new ServiceException(HttpStatusCode.BadRequest, "Password does not meet complexity requirements.");
+      }
+      else
+      {
+        throw new ServiceException(HttpStatusCode.InternalServerError, $"Failed to insert the user ({(int)resp.StatusCode}): {rawContent}");
+      }
+    }
+
 
     var content = await resp.Content.ReadAsStringAsync();
     var userId = JsonDocument.Parse(content).RootElement.GetProperty("id").GetString();
