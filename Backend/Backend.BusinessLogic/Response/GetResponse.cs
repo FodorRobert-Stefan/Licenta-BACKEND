@@ -12,6 +12,9 @@ namespace Backend.BusinessLogic.Response
     {
       this.Data = data;
     }
-    public GetResponse() { }
+    public GetResponse() : base(HttpStatusCode.BadRequest.GetDescription(), HttpStatusCode.BadRequest)
+    {
+
+    }
   }
 }

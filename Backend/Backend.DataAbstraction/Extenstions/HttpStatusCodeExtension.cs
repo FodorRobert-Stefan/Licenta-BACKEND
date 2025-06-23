@@ -15,7 +15,7 @@ namespace TM.Translate.Service.Api.Extensions
         HttpStatusCode.OK => "OK - The request has succeeded.",
         HttpStatusCode.Created => "Created - The request has been fulfilled and has resulted in one or more new resources being created.",
         HttpStatusCode.NoContent => "No Content - The server has successfully fulfilled the request and there is no content to send.",
-        HttpStatusCode.BadRequest => "Bad Request - The server could not understand the request due to invalid syntax.",
+        HttpStatusCode.BadRequest => "Bad Request - The server could not understand the request due to invalid data.",
         HttpStatusCode.Unauthorized => "Unauthorized - The client must authenticate itself to get the requested response.",
         HttpStatusCode.Forbidden => "Forbidden - The client does not have access rights to the content.",
         HttpStatusCode.NotFound => "Not Found - The server can not find the requested resource.",

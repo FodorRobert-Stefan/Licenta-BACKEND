@@ -153,20 +153,24 @@
         }
       },
       "Backend.CommonDomain/1.0.0": {
-        "dependencies": {
-          "Backend.DataAbstraction": "1.0.0"
-        },
         "runtime": {
-          "Backend.CommonDomain.dll": {}
+          "Backend.CommonDomain.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       },
       "Backend.DataAbstraction/1.0.0": {
         "dependencies": {
+          "Backend.CommonDomain": "1.0.0",
           "MongoDB.Driver": "3.4.0",
           "Serilog": "4.3.0"
         },
         "runtime": {
-          "Backend.DataAbstraction.dll": {}
+          "Backend.DataAbstraction.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       }
     }

@@ -34,7 +34,7 @@ namespace Backend.Controllers
       var modifier = this.modifierFactory.CreateModifier(request.Password);
       var createRequest = new GenericCreateRequest<CreateUserDto, User>(request, modifier);
       var response = await this.mediator.Send(createRequest, cancellationToken);
-      await this.azureService.CreateUserAsync(request.Email, request.Email, request.Password);
+      await this.azureService.CreateUserAsync(request.Email, request.Email.Split("@")[0], request.Password);
       return this.ReturnResponse(response);
     }
     [HttpGet(nameof(User) + "/{id}")]

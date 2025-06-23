@@ -23,8 +23,11 @@ namespace Backend.BusinessLogic.Generic.Get
     {
       try
       {
-
         var entity = await genericCrudRepository.FindByFilterAsync(request.Filter, cancellationToken);
+        if (entity == null)
+        {
+          return new GenericGetByFilterResponse<TDto>();
+        }
         var mapped = mapper.Map<TDto>(entity);
 
         return new GenericGetByFilterResponse<TDto>(mapped);

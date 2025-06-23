@@ -637,24 +637,31 @@
           "Microsoft.AspNetCore.Http": "2.3.0"
         },
         "runtime": {
-          "Backend.BusinessLogic.dll": {}
+          "Backend.BusinessLogic.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       },
       "Backend.CommonDomain/1.0.0": {
-        "dependencies": {
-          "Backend.DataAbstraction": "1.0.0"
-        },
         "runtime": {
-          "Backend.CommonDomain.dll": {}
+          "Backend.CommonDomain.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       },
       "Backend.DataAbstraction/1.0.0": {
         "dependencies": {
+          "Backend.CommonDomain": "1.0.0",
           "MongoDB.Driver": "3.4.0",
           "Serilog": "4.3.0"
         },
         "runtime": {
-          "Backend.DataAbstraction.dll": {}
+          "Backend.DataAbstraction.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       },
       "Backend.Database/1.0.0": {
@@ -664,7 +671,10 @@
           "MongoDB.Driver": "3.4.0"
         },
         "runtime": {
-          "Backend.Database.dll": {}
+          "Backend.Database.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       },
       "Backend.Domain/1.0.0": {
@@ -674,7 +684,10 @@
           "Backend.DataAbstraction": "1.0.0"
         },
         "runtime": {
-          "Backend.Domain.dll": {}
+          "Backend.Domain.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       },
       "Backend.Repositorie/1.0.0": {
@@ -684,7 +697,10 @@
           "Backend.Domain": "1.0.0"
         },
         "runtime": {
-          "Backend.Repositorie.dll": {}
+          "Backend.Repositorie.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       },
       "Backend.Service/1.0.0": {
@@ -695,7 +711,10 @@
           "System.IdentityModel.Tokens.Jwt": "8.12.0"
         },
         "runtime": {
-          "Backend.Service.dll": {}
+          "Backend.Service.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       }
     }

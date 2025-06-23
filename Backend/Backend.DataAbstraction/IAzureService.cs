@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Backend.CommonDomain.UserCommon;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -10,7 +11,10 @@ namespace Backend.DataAbstraction
   {
     Task<string> GenerateAccessTokenAsync();
     Task<string> CreateUserAsync(string displayName, string userPrincipalName, string password);
-    Task AssignRoleAsync(string userId, string roleId); 
+    Task AssignRoleAsync(string userId, string roleId);
+    Task<TokenResponse> GenerateUserAccessTokenAsync(string username, string password);
+    Task<TokenResponse> RefreshUserAccessTokenAsync(string refreshToken);
+
   }
 
 }

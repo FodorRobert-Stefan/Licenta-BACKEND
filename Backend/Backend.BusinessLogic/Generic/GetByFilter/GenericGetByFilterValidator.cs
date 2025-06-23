@@ -1,6 +1,7 @@
 ﻿using Backend.BusinessLogic.Generic.Get;
 using Backend.DataAbstraction;
 using FluentValidation;
+using Microsoft.Extensions.DependencyInjection;
 
 namespace Backend.BusinessLogic.Generic.GetByFilter
 {
@@ -8,7 +9,7 @@ namespace Backend.BusinessLogic.Generic.GetByFilter
     where TEntity : IDatabaseEntityRepresentation
     where TDto : IDtoRepresentation
   {
-    public GenericGetByFilterValidator()
+    public GenericGetByFilterValidator(IServiceProvider serviceProvider)
     {
       this.RuleFor(request => request.Filter).NotEmpty();
     }

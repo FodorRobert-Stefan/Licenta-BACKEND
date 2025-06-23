@@ -4,6 +4,8 @@ using System.Text.Json;
 using System.Text;
 using Backend.BusinessLogic;
 using System.Net;
+using Backend.CommonDomain.UserCommon;
+using Backend.DataAbstraction.IAzure;
 
 public class AzureService : IAzureService
 {
@@ -14,6 +16,73 @@ public class AzureService : IAzureService
   {
     _config = config;
     _httpClient = new HttpClient();
+  }
+
+  public async Task<TokenResponse> GenerateUserAccessTokenAsync(string username, string password)
+  {
+    var tokenEndpoint = $"https://login.microsoftonline.com/{_config.TenantId}/oauth2/v2.0/token";
+
+    var content = new FormUrlEncodedContent(new List<KeyValuePair<string, string>>
+    {
+    new KeyValuePair<string, string>("client_id", _config.ClientId),
+    new KeyValuePair<string, string>("client_secret", _config.ClientSecret),
+    new KeyValuePair<string, string>("grant_type", "password"),
+    new KeyValuePair<string, string>("username", username),
+    new KeyValuePair<string, string>("password", password),
+    new KeyValuePair<string, string>("scope", "https://graph.microsoft.com/.default offline_access openid profile")
+    });
+
+    var response = await _httpClient.PostAsync(tokenEndpoint, content);
+    var rawContent = await response.Content.ReadAsStringAsync();
+
+    if (!response.IsSuccessStatusCode)
+    {
+      throw new ServiceException(HttpStatusCode.BadRequest, $"UserToken error ({(int)response.StatusCode}): {rawContent}");
+    }
+
+    var json = JsonDocument.Parse(rawContent).RootElement;
+
+    return new TokenResponse
+    {
+      AccessToken = json.GetProperty("access_token").GetString()!,
+      RefreshToken = json.GetProperty("refresh_token").GetString()!,
+      ExpiresIn = json.GetProperty("expires_in").GetInt32()
+    };
+  }
+
+  public async Task<TokenResponse> RefreshUserAccessTokenAsync(string refreshToken)
+  {
+    var tokenEndpoint = $"https://login.microsoftonline.com/{_config.TenantId}/oauth2/v2.0/token";
+
+    var content = new FormUrlEncodedContent(new[]
+    {
+        new KeyValuePair<string, string>("client_id", _config.ClientId),
+        new KeyValuePair<string, string>("client_secret", _config.ClientSecret),
+        new KeyValuePair<string, string>("grant_type", "refresh_token"),
+        new KeyValuePair<string, string>("refresh_token", refreshToken),
+        new KeyValuePair<string, string>("scope", "https://graph.microsoft.com/.default openid profile offline_access")
+    });
+
+    var response = await _httpClient.PostAsync(tokenEndpoint, content);
+    var rawContent = await response.Content.ReadAsStringAsync();
+
+    if (!response.IsSuccessStatusCode)
+    {
+      throw new HttpRequestException($"Token refresh error ({(int)response.StatusCode}): {rawContent}");
+    }
+
+    var json = JsonDocument.Parse(rawContent).RootElement;
+
+    var accessToken = json.GetProperty("access_token").GetString();
+    var newRefreshToken = json.GetProperty("refresh_token").GetString();
+    var expiresIn = json.GetProperty("expires_in").GetInt32();
+
+    return new TokenResponse
+    {
+      AccessToken = accessToken!,
+      RefreshToken = newRefreshToken!,
+      ExpiresIn = expiresIn
+    };
   }
 
   public async Task<string> GenerateAccessTokenAsync()

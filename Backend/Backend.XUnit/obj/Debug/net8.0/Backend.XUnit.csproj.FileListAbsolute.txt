@@ -172,3 +172,10 @@ C:\Users\fodor\Desktop\Licenta-BACKEND\Backend\Backend.XUnit\obj\Debug\net8.0\re
 C:\Users\fodor\Desktop\Licenta-BACKEND\Backend\Backend.XUnit\obj\Debug\net8.0\Backend.XUnit.pdb
 C:\Users\fodor\Desktop\Licenta-BACKEND\Backend\Backend.XUnit\obj\Debug\net8.0\Backend.XUnit.genruntimeconfig.cache
 C:\Users\fodor\Desktop\Licenta-BACKEND\Backend\Backend.XUnit\obj\Debug\net8.0\ref\Backend.XUnit.dll
+C:\Users\Robi\Desktop\licenta\Licenta-BACKEND\Backend\Backend.XUnit\bin\Debug\net8.0\CoverletSourceRootsMapping_Backend.XUnit
+C:\Users\Robi\Desktop\licenta\Licenta-BACKEND\Backend\Backend.XUnit\obj\Debug\net8.0\Backend.XUnit.csproj.AssemblyReference.cache
+C:\Users\Robi\Desktop\licenta\Licenta-BACKEND\Backend\Backend.XUnit\obj\Debug\net8.0\Backend.XUnit.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Robi\Desktop\licenta\Licenta-BACKEND\Backend\Backend.XUnit\obj\Debug\net8.0\Backend.XUnit.AssemblyInfoInputs.cache
+C:\Users\Robi\Desktop\licenta\Licenta-BACKEND\Backend\Backend.XUnit\obj\Debug\net8.0\Backend.XUnit.AssemblyInfo.cs
+C:\Users\Robi\Desktop\licenta\Licenta-BACKEND\Backend\Backend.XUnit\obj\Debug\net8.0\Backend.XUnit.csproj.CoreCompileInputs.cache
+C:\Users\Robi\Desktop\licenta\Licenta-BACKEND\Backend\Backend.XUnit\obj\Debug\net8.0\Backend.XUnit.sourcelink.json

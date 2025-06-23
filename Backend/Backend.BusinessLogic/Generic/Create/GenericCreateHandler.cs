@@ -2,6 +2,7 @@
 using Backend.BusinessLogic.Exception;
 using Backend.DataAbstraction;
 using MediatR;
+using SharpCompress.Common;
 
 namespace Backend.BusinessLogic.Generic.Create
 {
@@ -21,7 +22,9 @@ namespace Backend.BusinessLogic.Generic.Create
     {
       try
       {
-        string id = await this.GenericCrudRepository.InsertAsync(this.mapper.Map<TEntity>(request.Data), cancellationToken);
+        TEntity entity = this.mapper.Map<TEntity>(request.Data);
+        request.OnBeforeInsert?.Invoke(entity);
+        string id = await this.GenericCrudRepository.InsertAsync(entity, cancellationToken);
         return new GenericCreateResponse(id);
       }
       catch (RepositorieException e)

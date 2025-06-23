@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Backend.DataAbstraction
-build_property.ProjectDir = C:\Users\fodor\Desktop\Licenta-BACKEND\Backend\Backend.DataAbstraction\
+build_property.ProjectDir = C:\Users\Robi\Desktop\licenta\Licenta-BACKEND\Backend\Backend.DataAbstraction\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 

@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Backend.DataAbstraction
+﻿namespace Backend.DataAbstraction.IAzure
 {
   public interface IAzureConfig
   {
@@ -14,7 +8,10 @@ namespace Backend.DataAbstraction
     string Scope { get; }
     string GraphApiBaseUrl { get; }
     string VerifiedDomain { get; }
+
     public string AppendVerifiedDomain(string userPrincipalName);
+    public string AppendVerifiedDomainWithEmail(string email);
+
     public string RemoveDomain(string userPrincipalName);
   }
 

@@ -1084,9 +1084,6 @@
       "Backend.CommonDomain/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
-        "dependencies": {
-          "Backend.DataAbstraction": "1.0.0"
-        },
         "compile": {
           "bin/placeholder/Backend.CommonDomain.dll": {}
         },
@@ -1098,6 +1095,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
+          "Backend.CommonDomain": "1.0.0",
           "MongoDB.Driver": "3.4.0",
           "Serilog": "4.3.0"
         },
@@ -3032,23 +3030,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\fodor\\.nuget\\packages\\": {},
+    "C:\\Users\\Robi\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\fodor\\Desktop\\Licenta-BACKEND\\Backend\\Backend\\Backend.csproj",
+      "projectUniqueName": "C:\\Users\\Robi\\Desktop\\licenta\\Licenta-BACKEND\\Backend\\Backend\\Backend.csproj",
       "projectName": "Backend",
-      "projectPath": "C:\\Users\\fodor\\Desktop\\Licenta-BACKEND\\Backend\\Backend\\Backend.csproj",
-      "packagesPath": "C:\\Users\\fodor\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\fodor\\Desktop\\Licenta-BACKEND\\Backend\\Backend\\obj\\",
+      "projectPath": "C:\\Users\\Robi\\Desktop\\licenta\\Licenta-BACKEND\\Backend\\Backend\\Backend.csproj",
+      "packagesPath": "C:\\Users\\Robi\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Robi\\Desktop\\licenta\\Licenta-BACKEND\\Backend\\Backend\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\fodor\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Robi\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -3056,28 +3054,28 @@
         "net8.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "C:\\Program Files\\dotnet\\library-packs": {},
-        "https://api.nuget.org/v3/index.json": {},
-        "https://proget.cbwg.local/nuget/DevServices/v3/index.json": {}
+        "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\fodor\\Desktop\\Licenta-BACKEND\\Backend\\Backend.BusinessLogic\\Backend.BusinessLogic.csproj": {
-              "projectPath": "C:\\Users\\fodor\\Desktop\\Licenta-BACKEND\\Backend\\Backend.BusinessLogic\\Backend.BusinessLogic.csproj"
+            "C:\\Users\\Robi\\Desktop\\licenta\\Licenta-BACKEND\\Backend\\Backend.BusinessLogic\\Backend.BusinessLogic.csproj": {
+              "projectPath": "C:\\Users\\Robi\\Desktop\\licenta\\Licenta-BACKEND\\Backend\\Backend.BusinessLogic\\Backend.BusinessLogic.csproj"
             },
-            "C:\\Users\\fodor\\Desktop\\Licenta-BACKEND\\Backend\\Backend.DataAbstraction\\Backend.DataAbstraction.csproj": {
-              "projectPath": "C:\\Users\\fodor\\Desktop\\Licenta-BACKEND\\Backend\\Backend.DataAbstraction\\Backend.DataAbstraction.csproj"
+            "C:\\Users\\Robi\\Desktop\\licenta\\Licenta-BACKEND\\Backend\\Backend.DataAbstraction\\Backend.DataAbstraction.csproj": {
+              "projectPath": "C:\\Users\\Robi\\Desktop\\licenta\\Licenta-BACKEND\\Backend\\Backend.DataAbstraction\\Backend.DataAbstraction.csproj"
             },
-            "C:\\Users\\fodor\\Desktop\\Licenta-BACKEND\\Backend\\Backend.Database\\Backend.Database.csproj": {
-              "projectPath": "C:\\Users\\fodor\\Desktop\\Licenta-BACKEND\\Backend\\Backend.Database\\Backend.Database.csproj"
+            "C:\\Users\\Robi\\Desktop\\licenta\\Licenta-BACKEND\\Backend\\Backend.Database\\Backend.Database.csproj": {
+              "projectPath": "C:\\Users\\Robi\\Desktop\\licenta\\Licenta-BACKEND\\Backend\\Backend.Database\\Backend.Database.csproj"
             },
-            "C:\\Users\\fodor\\Desktop\\Licenta-BACKEND\\Backend\\Backend.Repositorie\\Backend.Repositorie.csproj": {
-              "projectPath": "C:\\Users\\fodor\\Desktop\\Licenta-BACKEND\\Backend\\Backend.Repositorie\\Backend.Repositorie.csproj"
+            "C:\\Users\\Robi\\Desktop\\licenta\\Licenta-BACKEND\\Backend\\Backend.Repositorie\\Backend.Repositorie.csproj": {
+              "projectPath": "C:\\Users\\Robi\\Desktop\\licenta\\Licenta-BACKEND\\Backend\\Backend.Repositorie\\Backend.Repositorie.csproj"
             },
-            "C:\\Users\\fodor\\Desktop\\Licenta-BACKEND\\Backend\\Backend.Service\\Backend.Service.csproj": {
-              "projectPath": "C:\\Users\\fodor\\Desktop\\Licenta-BACKEND\\Backend\\Backend.Service\\Backend.Service.csproj"
+            "C:\\Users\\Robi\\Desktop\\licenta\\Licenta-BACKEND\\Backend\\Backend.Service\\Backend.Service.csproj": {
+              "projectPath": "C:\\Users\\Robi\\Desktop\\licenta\\Licenta-BACKEND\\Backend\\Backend.Service\\Backend.Service.csproj"
             }
           }
         }
@@ -3157,7 +3155,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
       }
     }
   },
