@@ -3,6 +3,38 @@
   "WorkspaceRootPath": "C:\\Users\\Robi\\Desktop\\licenta\\Licenta-BACKEND\\Backend\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{8385869B-659E-416F-BBFB-F91A51A850A4}|Backend.BackupServices\\Backend.BackupServices.csproj|c:\\users\\robi\\desktop\\licenta\\licenta-backend\\backend\\backend.backupservices\\backupservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8385869B-659E-416F-BBFB-F91A51A850A4}|Backend.BackupServices\\Backend.BackupServices.csproj|solutionrelative:backend.backupservices\\backupservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{741A399D-E12D-4873-8EC7-5CC8784CC31A}|Backend.Service\\Backend.Service.csproj|c:\\users\\robi\\desktop\\licenta\\licenta-backend\\backend\\backend.service\\azureblobstorageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{741A399D-E12D-4873-8EC7-5CC8784CC31A}|Backend.Service\\Backend.Service.csproj|solutionrelative:backend.service\\azureblobstorageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C77AB5C9-723F-4947-B971-49673E644023}|Backend\\Backend.csproj|c:\\users\\robi\\desktop\\licenta\\licenta-backend\\backend\\backend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C77AB5C9-723F-4947-B971-49673E644023}|Backend\\Backend.csproj|solutionrelative:backend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{741A399D-E12D-4873-8EC7-5CC8784CC31A}|Backend.Service\\Backend.Service.csproj|c:\\users\\robi\\desktop\\licenta\\licenta-backend\\backend\\backend.service\\azureblobstoragesettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{741A399D-E12D-4873-8EC7-5CC8784CC31A}|Backend.Service\\Backend.Service.csproj|solutionrelative:backend.service\\azureblobstoragesettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C77AB5C9-723F-4947-B971-49673E644023}|Backend\\Backend.csproj|c:\\users\\robi\\desktop\\licenta\\licenta-backend\\backend\\backend\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{C77AB5C9-723F-4947-B971-49673E644023}|Backend\\Backend.csproj|solutionrelative:backend\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{96FAA1A0-D07C-4018-A487-69900715DE1B}|Backend.DataAbstraction\\Backend.DataAbstraction.csproj|c:\\users\\robi\\desktop\\licenta\\licenta-backend\\backend\\backend.dataabstraction\\iazureblobbackupservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{96FAA1A0-D07C-4018-A487-69900715DE1B}|Backend.DataAbstraction\\Backend.DataAbstraction.csproj|solutionrelative:backend.dataabstraction\\iazureblobbackupservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{96FAA1A0-D07C-4018-A487-69900715DE1B}|Backend.DataAbstraction\\Backend.DataAbstraction.csproj|c:\\users\\robi\\desktop\\licenta\\licenta-backend\\backend\\backend.dataabstraction\\idatabaseconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{96FAA1A0-D07C-4018-A487-69900715DE1B}|Backend.DataAbstraction\\Backend.DataAbstraction.csproj|solutionrelative:backend.dataabstraction\\idatabaseconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8385869B-659E-416F-BBFB-F91A51A850A4}|Backend.BackupServices\\Backend.BackupServices.csproj|c:\\users\\robi\\desktop\\licenta\\licenta-backend\\backend\\backend.backupservices\\backend.backupservices.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{8385869B-659E-416F-BBFB-F91A51A850A4}|Backend.BackupServices\\Backend.BackupServices.csproj|solutionrelative:backend.backupservices\\backend.backupservices.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{C77AB5C9-723F-4947-B971-49673E644023}|Backend\\Backend.csproj|c:\\users\\robi\\desktop\\licenta\\licenta-backend\\backend\\backend\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C77AB5C9-723F-4947-B971-49673E644023}|Backend\\Backend.csproj|solutionrelative:backend\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -77,10 +109,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{C77AB5C9-723F-4947-B971-49673E644023}|Backend\\Backend.csproj|c:\\users\\robi\\desktop\\licenta\\licenta-backend\\backend\\backend\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C77AB5C9-723F-4947-B971-49673E644023}|Backend\\Backend.csproj|solutionrelative:backend\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C77AB5C9-723F-4947-B971-49673E644023}|Backend\\Backend.csproj|c:\\users\\robi\\desktop\\licenta\\licenta-backend\\backend\\backend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C77AB5C9-723F-4947-B971-49673E644023}|Backend\\Backend.csproj|solutionrelative:backend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6A349BA0-20F6-4E65-B550-EAC319E8ABFA}|Backend.CommonDomain\\Backend.CommonDomain.csproj|c:\\users\\robi\\desktop\\licenta\\licenta-backend\\backend\\backend.commondomain\\inactiveentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -199,10 +227,6 @@
       "RelativeMoniker": "D:0:0:{F2CAD6FB-F291-4CAB-B9EF-E22976BBAB10}|Backend.BusinessLogic\\Backend.BusinessLogic.csproj|solutionrelative:backend.businesslogic\\exception\\dependencyexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C77AB5C9-723F-4947-B971-49673E644023}|Backend\\Backend.csproj|c:\\users\\robi\\desktop\\licenta\\licenta-backend\\backend\\backend\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{C77AB5C9-723F-4947-B971-49673E644023}|Backend\\Backend.csproj|solutionrelative:backend\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{4B67B1E5-4934-4BE3-B85F-877066BED227}|Backend.Repositorie\\Backend.Repositorie.csproj|c:\\users\\robi\\desktop\\licenta\\licenta-backend\\backend\\backend.repositorie\\backend.repositorie.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{4B67B1E5-4934-4BE3-B85F-877066BED227}|Backend.Repositorie\\Backend.Repositorie.csproj|solutionrelative:backend.repositorie\\backend.repositorie.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
@@ -315,10 +339,6 @@
       "RelativeMoniker": "D:0:0:{96FAA1A0-D07C-4018-A487-69900715DE1B}|Backend.DataAbstraction\\Backend.DataAbstraction.csproj|solutionrelative:backend.dataabstraction\\idatabase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{96FAA1A0-D07C-4018-A487-69900715DE1B}|Backend.DataAbstraction\\Backend.DataAbstraction.csproj|c:\\users\\robi\\desktop\\licenta\\licenta-backend\\backend\\backend.dataabstraction\\idatabaseconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{96FAA1A0-D07C-4018-A487-69900715DE1B}|Backend.DataAbstraction\\Backend.DataAbstraction.csproj|solutionrelative:backend.dataabstraction\\idatabaseconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{CFD13BE3-8DF1-4FA9-B5A3-9D701AD1FD52}|Backend.Database\\Backend.Database.csproj|c:\\users\\robi\\desktop\\licenta\\licenta-backend\\backend\\backend.database\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CFD13BE3-8DF1-4FA9-B5A3-9D701AD1FD52}|Backend.Database\\Backend.Database.csproj|solutionrelative:backend.database\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -334,7 +354,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 50,
+          "SelectedChildIndex": 13,
           "Children": [
             {
               "$type": "Bookmark",
@@ -365,8 +385,81 @@
               "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{269a02dc-6af8-11d3-bdc4-00c04f688e50}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IAzureBlobBackupService.cs",
+              "DocumentMoniker": "C:\\Users\\Robi\\Desktop\\licenta\\Licenta-BACKEND\\Backend\\Backend.DataAbstraction\\IAzureBlobBackupService.cs",
+              "RelativeDocumentMoniker": "Backend.DataAbstraction\\IAzureBlobBackupService.cs",
+              "ToolTip": "C:\\Users\\Robi\\Desktop\\licenta\\Licenta-BACKEND\\Backend\\Backend.DataAbstraction\\IAzureBlobBackupService.cs",
+              "RelativeToolTip": "Backend.DataAbstraction\\IAzureBlobBackupService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAQAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-26T16:00:08.399Z",
+              "EditorCaption": ""
+            },
+            {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "AzureBlobStorageService.cs",
+              "DocumentMoniker": "C:\\Users\\Robi\\Desktop\\licenta\\Licenta-BACKEND\\Backend\\Backend.Service\\AzureBlobStorageService.cs",
+              "RelativeDocumentMoniker": "Backend.Service\\AzureBlobStorageService.cs",
+              "ToolTip": "C:\\Users\\Robi\\Desktop\\licenta\\Licenta-BACKEND\\Backend\\Backend.Service\\AzureBlobStorageService.cs",
+              "RelativeToolTip": "Backend.Service\\AzureBlobStorageService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwBYAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-26T15:58:31.028Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AzureBlobStorageSettings.cs",
+              "DocumentMoniker": "C:\\Users\\Robi\\Desktop\\licenta\\Licenta-BACKEND\\Backend\\Backend.Service\\AzureBlobStorageSettings.cs",
+              "RelativeDocumentMoniker": "Backend.Service\\AzureBlobStorageSettings.cs",
+              "ToolTip": "C:\\Users\\Robi\\Desktop\\licenta\\Licenta-BACKEND\\Backend\\Backend.Service\\AzureBlobStorageSettings.cs",
+              "RelativeToolTip": "Backend.Service\\AzureBlobStorageSettings.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAIAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-26T15:56:41.063Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Backend.BackupServices",
+              "DocumentMoniker": "C:\\Users\\Robi\\Desktop\\licenta\\Licenta-BACKEND\\Backend\\Backend.BackupServices\\Backend.BackupServices.csproj",
+              "RelativeDocumentMoniker": "Backend.BackupServices\\Backend.BackupServices.csproj",
+              "ToolTip": "C:\\Users\\Robi\\Desktop\\licenta\\Licenta-BACKEND\\Backend\\Backend.BackupServices\\Backend.BackupServices.csproj",
+              "RelativeToolTip": "Backend.BackupServices\\Backend.BackupServices.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-06-26T15:29:45.023Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "BackupService.cs",
+              "DocumentMoniker": "C:\\Users\\Robi\\Desktop\\licenta\\Licenta-BACKEND\\Backend\\Backend.BackupServices\\BackupService.cs",
+              "RelativeDocumentMoniker": "Backend.BackupServices\\BackupService.cs",
+              "ToolTip": "C:\\Users\\Robi\\Desktop\\licenta\\Licenta-BACKEND\\Backend\\Backend.BackupServices\\BackupService.cs",
+              "RelativeToolTip": "Backend.BackupServices\\BackupService.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAADwvykAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-26T15:28:15.15Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "RefreshTokenRequestDto.cs",
               "DocumentMoniker": "C:\\Users\\Robi\\Desktop\\licenta\\Licenta-BACKEND\\Backend\\Backend.CommonDomain\\UserCommon\\RefreshTokenRequestDto.cs",
               "RelativeDocumentMoniker": "Backend.CommonDomain\\UserCommon\\RefreshTokenRequestDto.cs",
@@ -378,16 +471,8 @@
               "EditorCaption": ""
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{269a02dc-6af8-11d3-bdc4-00c04f688e50}"
-            },
-            {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 28,
               "Title": "AzureConfig.cs",
               "DocumentMoniker": "C:\\Users\\Robi\\Desktop\\licenta\\Licenta-BACKEND\\Backend\\Backend.Service\\AzureConfig.cs",
               "RelativeDocumentMoniker": "Backend.Service\\AzureConfig.cs",
@@ -400,20 +485,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "Backend",
+              "DocumentIndex": 32,
+              "Title": "Backend.csproj",
               "DocumentMoniker": "C:\\Users\\Robi\\Desktop\\licenta\\Licenta-BACKEND\\Backend\\Backend\\Backend.csproj",
               "RelativeDocumentMoniker": "Backend\\Backend.csproj",
               "ToolTip": "C:\\Users\\Robi\\Desktop\\licenta\\Licenta-BACKEND\\Backend\\Backend\\Backend.csproj",
               "RelativeToolTip": "Backend\\Backend.csproj",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABIAAABJAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAIBJwBIAAABJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
               "WhenOpened": "2025-06-23T17:14:40.275Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 41,
               "Title": "IDtoRepresentation.cs",
               "DocumentMoniker": "C:\\Users\\Robi\\Desktop\\licenta\\Licenta-BACKEND\\Backend\\Backend.CommonDomain\\IDtoRepresentation.cs",
               "RelativeDocumentMoniker": "Backend.CommonDomain\\IDtoRepresentation.cs",
@@ -426,7 +511,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 39,
               "Title": "LoginUserRequestDto.cs",
               "DocumentMoniker": "C:\\Users\\Robi\\Desktop\\licenta\\Licenta-BACKEND\\Backend\\Backend.CommonDomain\\UserCommon\\LoginUserRequestDto.cs",
               "RelativeDocumentMoniker": "Backend.CommonDomain\\UserCommon\\LoginUserRequestDto.cs",
@@ -439,7 +524,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 35,
               "Title": "BaseUser.cs",
               "DocumentMoniker": "C:\\Users\\Robi\\Desktop\\licenta\\Licenta-BACKEND\\Backend\\Backend.CommonDomain\\UserCommon\\BaseUser.cs",
               "RelativeDocumentMoniker": "Backend.CommonDomain\\UserCommon\\BaseUser.cs",
@@ -452,7 +537,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 36,
               "Title": "BearerTokens.cs",
               "DocumentMoniker": "C:\\Users\\Robi\\Desktop\\licenta\\Licenta-BACKEND\\Backend\\Backend.CommonDomain\\UserCommon\\BearerTokens.cs",
               "RelativeDocumentMoniker": "Backend.CommonDomain\\UserCommon\\BearerTokens.cs",
@@ -465,7 +550,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 44,
               "Title": "GenericCreateRequest.cs",
               "DocumentMoniker": "C:\\Users\\Robi\\Desktop\\licenta\\Licenta-BACKEND\\Backend\\Backend.BusinessLogic\\Generic\\Create\\GenericCreateRequest.cs",
               "RelativeDocumentMoniker": "Backend.BusinessLogic\\Generic\\Create\\GenericCreateRequest.cs",
@@ -478,7 +563,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 45,
               "Title": "GenericControllerTests.cs",
               "DocumentMoniker": "C:\\Users\\Robi\\Desktop\\licenta\\Licenta-BACKEND\\Backend\\Backend.XUnit\\GenericControllerTests.cs",
               "RelativeDocumentMoniker": "Backend.XUnit\\GenericControllerTests.cs",
@@ -491,19 +576,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 46,
               "Title": "InjectionExtensions.cs",
               "DocumentMoniker": "C:\\Users\\Robi\\Desktop\\licenta\\Licenta-BACKEND\\Backend\\Backend\\Extensions\\InjectionExtensions.cs",
               "RelativeDocumentMoniker": "Backend\\Extensions\\InjectionExtensions.cs",
               "ToolTip": "C:\\Users\\Robi\\Desktop\\licenta\\Licenta-BACKEND\\Backend\\Backend\\Extensions\\InjectionExtensions.cs",
               "RelativeToolTip": "Backend\\Extensions\\InjectionExtensions.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAFAAAA",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-20T09:25:10.52Z"
+              "WhenOpened": "2025-06-20T09:25:10.52Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 43,
               "Title": "UserModifierFactory.cs",
               "DocumentMoniker": "C:\\Users\\Robi\\Desktop\\licenta\\Licenta-BACKEND\\Backend\\Backend\\Mapping\\UserModifierFactory.cs",
               "RelativeDocumentMoniker": "Backend\\Mapping\\UserModifierFactory.cs",
@@ -516,19 +602,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
+              "DocumentIndex": 47,
               "Title": "AutoMapper.cs",
               "DocumentMoniker": "C:\\Users\\Robi\\Desktop\\licenta\\Licenta-BACKEND\\Backend\\Backend\\Mapping\\AutoMapper.cs",
               "RelativeDocumentMoniker": "Backend\\Mapping\\AutoMapper.cs",
               "ToolTip": "C:\\Users\\Robi\\Desktop\\licenta\\Licenta-BACKEND\\Backend\\Backend\\Mapping\\AutoMapper.cs",
               "RelativeToolTip": "Backend\\Mapping\\AutoMapper.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-20T09:19:33.843Z"
+              "WhenOpened": "2025-06-20T09:19:33.843Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 22,
               "Title": "MapperProfile.cs",
               "DocumentMoniker": "C:\\Users\\Robi\\Desktop\\licenta\\Licenta-BACKEND\\Backend\\Backend.Domain\\MapperProfile.cs",
               "RelativeDocumentMoniker": "Backend.Domain\\MapperProfile.cs",
@@ -541,32 +628,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Robi\\Desktop\\licenta\\Licenta-BACKEND\\Backend\\Backend\\Program.cs",
               "RelativeDocumentMoniker": "Backend\\Program.cs",
               "ToolTip": "C:\\Users\\Robi\\Desktop\\licenta\\Licenta-BACKEND\\Backend\\Backend\\Program.cs",
               "RelativeToolTip": "Backend\\Program.cs",
-              "ViewState": "AgIAACgAAAAAAAAAAAAAwDwAAAAmAAAAAAAAAA==",
+              "ViewState": "AgIAAEMAAAAAAAAAAAAgwFsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-20T09:17:44.567Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 44,
+              "DocumentIndex": 51,
               "Title": "GenericGetByIdHandler.cs",
               "DocumentMoniker": "C:\\Users\\Robi\\Desktop\\licenta\\Licenta-BACKEND\\Backend\\Backend.BusinessLogic\\Generic\\Get\\GenericGetByIdHandler.cs",
               "RelativeDocumentMoniker": "Backend.BusinessLogic\\Generic\\Get\\GenericGetByIdHandler.cs",
               "ToolTip": "C:\\Users\\Robi\\Desktop\\licenta\\Licenta-BACKEND\\Backend\\Backend.BusinessLogic\\Generic\\Get\\GenericGetByIdHandler.cs",
               "RelativeToolTip": "Backend.BusinessLogic\\Generic\\Get\\GenericGetByIdHandler.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAIAwwCEAAAAAAAAA",
+              "ViewState": "AgIAAAYAAAAAAAAAAIAwwCEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-18T13:21:29.244Z"
+              "WhenOpened": "2025-06-18T13:21:29.244Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 23,
               "Title": "GenericController.cs",
               "DocumentMoniker": "C:\\Users\\Robi\\Desktop\\licenta\\Licenta-BACKEND\\Backend\\Backend\\Controllers\\GenericController.cs",
               "RelativeDocumentMoniker": "Backend\\Controllers\\GenericController.cs",
@@ -579,7 +667,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 12,
               "Title": "GenericGetByFilterHandler.cs",
               "DocumentMoniker": "C:\\Users\\Robi\\Desktop\\licenta\\Licenta-BACKEND\\Backend\\Backend.BusinessLogic\\Generic\\GetByFilter\\GenericGetByFilterHandler.cs",
               "RelativeDocumentMoniker": "Backend.BusinessLogic\\Generic\\GetByFilter\\GenericGetByFilterHandler.cs",
@@ -592,19 +680,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 46,
+              "DocumentIndex": 53,
               "Title": "ServiceException.cs",
               "DocumentMoniker": "C:\\Users\\Robi\\Desktop\\licenta\\Licenta-BACKEND\\Backend\\Backend.BusinessLogic\\Exception\\ServiceException.cs",
               "RelativeDocumentMoniker": "Backend.BusinessLogic\\Exception\\ServiceException.cs",
               "ToolTip": "C:\\Users\\Robi\\Desktop\\licenta\\Licenta-BACKEND\\Backend\\Backend.BusinessLogic\\Exception\\ServiceException.cs",
               "RelativeToolTip": "Backend.BusinessLogic\\Exception\\ServiceException.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAvAAAA",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-20T08:11:37.673Z"
+              "WhenOpened": "2025-06-20T08:11:37.673Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 18,
               "Title": "GenericCreateValidator.cs",
               "DocumentMoniker": "C:\\Users\\Robi\\Desktop\\licenta\\Licenta-BACKEND\\Backend\\Backend.BusinessLogic\\Generic\\Create\\GenericCreateValidator.cs",
               "RelativeDocumentMoniker": "Backend.BusinessLogic\\Generic\\Create\\GenericCreateValidator.cs",
@@ -617,7 +706,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 25,
               "Title": "CreateUserDtoValidatorBase.cs",
               "DocumentMoniker": "C:\\Users\\Robi\\Desktop\\licenta\\Licenta-BACKEND\\Backend\\Backend.BusinessLogic\\Users\\CreateUserDtoValidatorBase.cs",
               "RelativeDocumentMoniker": "Backend.BusinessLogic\\Users\\CreateUserDtoValidatorBase.cs",
@@ -630,45 +719,46 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 41,
+              "DocumentIndex": 48,
               "Title": "AbstractValidatorException.cs",
               "DocumentMoniker": "C:\\Users\\Robi\\Desktop\\licenta\\Licenta-BACKEND\\Backend\\Backend.BusinessLogic\\Exception\\AbstractValidatorException.cs",
               "RelativeDocumentMoniker": "Backend.BusinessLogic\\Exception\\AbstractValidatorException.cs",
               "ToolTip": "C:\\Users\\Robi\\Desktop\\licenta\\Licenta-BACKEND\\Backend\\Backend.BusinessLogic\\Exception\\AbstractValidatorException.cs",
               "RelativeToolTip": "Backend.BusinessLogic\\Exception\\AbstractValidatorException.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAYAAAA8AAAA",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAYAAAA8AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-20T08:10:05.375Z"
+              "WhenOpened": "2025-06-20T08:10:05.375Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 13,
               "Title": "HttpStatusCodeExtension.cs",
               "DocumentMoniker": "C:\\Users\\Robi\\Desktop\\licenta\\Licenta-BACKEND\\Backend\\Backend.DataAbstraction\\Extenstions\\HttpStatusCodeExtension.cs",
               "RelativeDocumentMoniker": "Backend.DataAbstraction\\Extenstions\\HttpStatusCodeExtension.cs",
               "ToolTip": "C:\\Users\\Robi\\Desktop\\licenta\\Licenta-BACKEND\\Backend\\Backend.DataAbstraction\\Extenstions\\HttpStatusCodeExtension.cs",
               "RelativeToolTip": "Backend.DataAbstraction\\Extenstions\\HttpStatusCodeExtension.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABMAAABpAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAIBJwBMAAABpAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-12T11:56:05.023Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 21,
               "Title": "GlobalException.cs",
               "DocumentMoniker": "C:\\Users\\Robi\\Desktop\\licenta\\Licenta-BACKEND\\Backend\\Backend.BusinessLogic\\Exception\\GlobalException.cs",
               "RelativeDocumentMoniker": "Backend.BusinessLogic\\Exception\\GlobalException.cs",
               "ToolTip": "C:\\Users\\Robi\\Desktop\\licenta\\Licenta-BACKEND\\Backend\\Backend.BusinessLogic\\Exception\\GlobalException.cs",
               "RelativeToolTip": "Backend.BusinessLogic\\Exception\\GlobalException.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAgwBcAAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAABMAAAAAAAAAAAA1wBcAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-20T09:03:05.762Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 15,
               "Title": "GenericCreateResponse.cs",
               "DocumentMoniker": "C:\\Users\\Robi\\Desktop\\licenta\\Licenta-BACKEND\\Backend\\Backend.BusinessLogic\\Generic\\Create\\GenericCreateResponse.cs",
               "RelativeDocumentMoniker": "Backend.BusinessLogic\\Generic\\Create\\GenericCreateResponse.cs",
@@ -681,32 +771,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 42,
+              "DocumentIndex": 49,
               "Title": "Backend.BusinessLogic.csproj",
               "DocumentMoniker": "C:\\Users\\Robi\\Desktop\\licenta\\Licenta-BACKEND\\Backend\\Backend.BusinessLogic\\Backend.BusinessLogic.csproj",
               "RelativeDocumentMoniker": "Backend.BusinessLogic\\Backend.BusinessLogic.csproj",
               "ToolTip": "C:\\Users\\Robi\\Desktop\\licenta\\Licenta-BACKEND\\Backend\\Backend.BusinessLogic\\Backend.BusinessLogic.csproj",
               "RelativeToolTip": "Backend.BusinessLogic\\Backend.BusinessLogic.csproj",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAAAAAA",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
               "WhenOpened": "2025-06-19T18:27:10.187Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 43,
+              "DocumentIndex": 50,
               "Title": "GenericCreateValidator.cs",
               "DocumentMoniker": "C:\\Users\\Robi\\Desktop\\licenta\\Licenta-BACKEND\\Backend\\Backend.BusinessLogic\\Validator\\GenericCreateValidator.cs",
               "RelativeDocumentMoniker": "Backend.BusinessLogic\\Validator\\GenericCreateValidator.cs",
               "ToolTip": "C:\\Users\\Robi\\Desktop\\licenta\\Licenta-BACKEND\\Backend\\Backend.BusinessLogic\\Validator\\GenericCreateValidator.cs",
               "RelativeToolTip": "Backend.BusinessLogic\\Validator\\GenericCreateValidator.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-12T11:15:06.308Z"
+              "WhenOpened": "2025-06-12T11:15:06.308Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 42,
               "Title": "GenericCreateHandler.cs",
               "DocumentMoniker": "C:\\Users\\Robi\\Desktop\\licenta\\Licenta-BACKEND\\Backend\\Backend.BusinessLogic\\Generic\\Create\\GenericCreateHandler.cs",
               "RelativeDocumentMoniker": "Backend.BusinessLogic\\Generic\\Create\\GenericCreateHandler.cs",
@@ -719,56 +810,59 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 45,
+              "DocumentIndex": 52,
               "Title": "Response.cs",
               "DocumentMoniker": "C:\\Users\\Robi\\Desktop\\licenta\\Licenta-BACKEND\\Backend\\Backend.BusinessLogic\\Response\\Response.cs",
               "RelativeDocumentMoniker": "Backend.BusinessLogic\\Response\\Response.cs",
               "ToolTip": "C:\\Users\\Robi\\Desktop\\licenta\\Licenta-BACKEND\\Backend\\Backend.BusinessLogic\\Response\\Response.cs",
               "RelativeToolTip": "Backend.BusinessLogic\\Response\\Response.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAAAAAA",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-12T11:04:08.348Z"
+              "WhenOpened": "2025-06-12T11:04:08.348Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 14,
               "Title": "CreateResponse.cs",
               "DocumentMoniker": "C:\\Users\\Robi\\Desktop\\licenta\\Licenta-BACKEND\\Backend\\Backend.BusinessLogic\\Response\\CreateResponse.cs",
               "RelativeDocumentMoniker": "Backend.BusinessLogic\\Response\\CreateResponse.cs",
               "ToolTip": "C:\\Users\\Robi\\Desktop\\licenta\\Licenta-BACKEND\\Backend\\Backend.BusinessLogic\\Response\\CreateResponse.cs",
               "RelativeToolTip": "Backend.BusinessLogic\\Response\\CreateResponse.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAgwBkAAAA0AAAAAAAAAA==",
+              "ViewState": "AgIAAAoAAAAAAAAAAAA1wBkAAAA0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-12T11:04:45.601Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 47,
+              "DocumentIndex": 54,
               "Title": "RepositorieException.cs",
               "DocumentMoniker": "C:\\Users\\Robi\\Desktop\\licenta\\Licenta-BACKEND\\Backend\\Backend.BusinessLogic\\Exception\\RepositorieException.cs",
               "RelativeDocumentMoniker": "Backend.BusinessLogic\\Exception\\RepositorieException.cs",
               "ToolTip": "C:\\Users\\Robi\\Desktop\\licenta\\Licenta-BACKEND\\Backend\\Backend.BusinessLogic\\Exception\\RepositorieException.cs",
               "RelativeToolTip": "Backend.BusinessLogic\\Exception\\RepositorieException.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-20T08:09:42.484Z"
+              "WhenOpened": "2025-06-20T08:09:42.484Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 48,
+              "DocumentIndex": 55,
               "Title": "DependencyException.cs",
               "DocumentMoniker": "C:\\Users\\Robi\\Desktop\\licenta\\Licenta-BACKEND\\Backend\\Backend.BusinessLogic\\Exception\\DependencyException.cs",
               "RelativeDocumentMoniker": "Backend.BusinessLogic\\Exception\\DependencyException.cs",
               "ToolTip": "C:\\Users\\Robi\\Desktop\\licenta\\Licenta-BACKEND\\Backend\\Backend.BusinessLogic\\Exception\\DependencyException.cs",
               "RelativeToolTip": "Backend.BusinessLogic\\Exception\\DependencyException.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAPAAAA",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-15T10:55:29.348Z"
+              "WhenOpened": "2025-06-15T10:55:29.348Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 19,
               "Title": "ValidatorBehaviour.cs",
               "DocumentMoniker": "C:\\Users\\Robi\\Desktop\\licenta\\Licenta-BACKEND\\Backend\\Backend\\ValidatorBehaviour.cs",
               "RelativeDocumentMoniker": "Backend\\ValidatorBehaviour.cs",
@@ -781,32 +875,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 50,
+              "DocumentIndex": 56,
               "Title": "Backend.Repositorie.csproj",
               "DocumentMoniker": "C:\\Users\\Robi\\Desktop\\licenta\\Licenta-BACKEND\\Backend\\Backend.Repositorie\\Backend.Repositorie.csproj",
               "RelativeDocumentMoniker": "Backend.Repositorie\\Backend.Repositorie.csproj",
               "ToolTip": "C:\\Users\\Robi\\Desktop\\licenta\\Licenta-BACKEND\\Backend\\Backend.Repositorie\\Backend.Repositorie.csproj",
               "RelativeToolTip": "Backend.Repositorie\\Backend.Repositorie.csproj",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
               "WhenOpened": "2025-06-11T13:23:13.515Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 49,
+              "DocumentIndex": 4,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\Robi\\Desktop\\licenta\\Licenta-BACKEND\\Backend\\Backend\\appsettings.json",
               "RelativeDocumentMoniker": "Backend\\appsettings.json",
               "ToolTip": "C:\\Users\\Robi\\Desktop\\licenta\\Licenta-BACKEND\\Backend\\Backend\\appsettings.json",
               "RelativeToolTip": "Backend\\appsettings.json",
-              "ViewState": "AQIAABIAAAAAAAAAAAAqwCUAAAAAAAAA",
+              "ViewState": "AgIAABYAAAAAAAAAAAASwCcAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-06-18T15:59:01.729Z"
+              "WhenOpened": "2025-06-18T15:59:01.729Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 11,
               "Title": "AzureService.cs",
               "DocumentMoniker": "C:\\Users\\Robi\\Desktop\\licenta\\Licenta-BACKEND\\Backend\\Backend.Service\\AzureService.cs",
               "RelativeDocumentMoniker": "Backend.Service\\AzureService.cs",
@@ -819,55 +914,59 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 55,
+              "DocumentIndex": 61,
               "Title": "WeatherForecast.cs",
               "DocumentMoniker": "C:\\Users\\Robi\\Desktop\\licenta\\Licenta-BACKEND\\Backend\\Backend\\WeatherForecast.cs",
               "RelativeDocumentMoniker": "Backend\\WeatherForecast.cs",
               "ToolTip": "C:\\Users\\Robi\\Desktop\\licenta\\Licenta-BACKEND\\Backend\\Backend\\WeatherForecast.cs",
               "RelativeToolTip": "Backend\\WeatherForecast.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-18T16:26:41.114Z"
+              "WhenOpened": "2025-06-18T16:26:41.114Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 53,
+              "DocumentIndex": 59,
               "Title": "ClassMapping.cs",
               "DocumentMoniker": "C:\\Users\\Robi\\Desktop\\licenta\\Licenta-BACKEND\\Backend\\Backend.Database\\ClassMapping.cs",
               "RelativeDocumentMoniker": "Backend.Database\\ClassMapping.cs",
               "ToolTip": "C:\\Users\\Robi\\Desktop\\licenta\\Licenta-BACKEND\\Backend\\Backend.Database\\ClassMapping.cs",
               "RelativeToolTip": "Backend.Database\\ClassMapping.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAiAAAA",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-18T19:29:06.091Z"
+              "WhenOpened": "2025-06-18T19:29:06.091Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 54,
+              "DocumentIndex": 60,
               "Title": "GenericGetByFilterRequest.cs",
               "DocumentMoniker": "C:\\Users\\Robi\\Desktop\\licenta\\Licenta-BACKEND\\Backend\\Backend.BusinessLogic\\Generic\\GetByFilter\\GenericGetByFilterRequest.cs",
               "RelativeDocumentMoniker": "Backend.BusinessLogic\\Generic\\GetByFilter\\GenericGetByFilterRequest.cs",
               "ToolTip": "C:\\Users\\Robi\\Desktop\\licenta\\Licenta-BACKEND\\Backend\\Backend.BusinessLogic\\Generic\\GetByFilter\\GenericGetByFilterRequest.cs",
               "RelativeToolTip": "Backend.BusinessLogic\\Generic\\GetByFilter\\GenericGetByFilterRequest.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAqwAwAAAAAAAAA",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAqwAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-18T14:14:36.897Z"
+              "WhenOpened": "2025-06-18T14:14:36.897Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 52,
+              "DocumentIndex": 58,
               "Title": "GenericCrudRepository.cs",
               "DocumentMoniker": "C:\\Users\\Robi\\Desktop\\licenta\\Licenta-BACKEND\\Backend\\Backend.Repositorie\\GenericCrudRepository.cs",
               "RelativeDocumentMoniker": "Backend.Repositorie\\GenericCrudRepository.cs",
               "ToolTip": "C:\\Users\\Robi\\Desktop\\licenta\\Licenta-BACKEND\\Backend\\Backend.Repositorie\\GenericCrudRepository.cs",
               "RelativeToolTip": "Backend.Repositorie\\GenericCrudRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACQAAAAZAAAA",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-19T18:24:53.142Z"
+              "WhenOpened": "2025-06-19T18:24:53.142Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 31,
               "Title": "IAzureConfig.cs",
               "DocumentMoniker": "C:\\Users\\Robi\\Desktop\\licenta\\Licenta-BACKEND\\Backend\\Backend.DataAbstraction\\IAzureConfig.cs",
               "RelativeDocumentMoniker": "Backend.DataAbstraction\\IAzureConfig.cs",
@@ -880,45 +979,46 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 51,
+              "DocumentIndex": 57,
               "Title": "Backend.Service.csproj",
               "DocumentMoniker": "C:\\Users\\Robi\\Desktop\\licenta\\Licenta-BACKEND\\Backend\\Backend.Service\\Backend.Service.csproj",
               "RelativeDocumentMoniker": "Backend.Service\\Backend.Service.csproj",
               "ToolTip": "C:\\Users\\Robi\\Desktop\\licenta\\Licenta-BACKEND\\Backend\\Backend.Service\\Backend.Service.csproj",
               "RelativeToolTip": "Backend.Service\\Backend.Service.csproj",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
               "WhenOpened": "2025-06-19T18:25:46.015Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 8,
               "Title": "UserController.cs",
               "DocumentMoniker": "C:\\Users\\Robi\\Desktop\\licenta\\Licenta-BACKEND\\Backend\\Backend\\Controllers\\UserController.cs",
               "RelativeDocumentMoniker": "Backend\\Controllers\\UserController.cs",
               "ToolTip": "C:\\Users\\Robi\\Desktop\\licenta\\Licenta-BACKEND\\Backend\\Backend\\Controllers\\UserController.cs",
               "RelativeToolTip": "Backend\\Controllers\\UserController.cs",
-              "ViewState": "AgIAACgAAAAAAAAAAAAQwDUAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAABQAAAAAAAAAAAAqwCYAAABLAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-18T18:52:23.574Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 56,
+              "DocumentIndex": 62,
               "Title": "IHashingGenerator.cs",
               "DocumentMoniker": "C:\\Users\\Robi\\Desktop\\licenta\\Licenta-BACKEND\\Backend\\Backend.DataAbstraction\\IHashingGenerator.cs",
               "RelativeDocumentMoniker": "Backend.DataAbstraction\\IHashingGenerator.cs",
               "ToolTip": "C:\\Users\\Robi\\Desktop\\licenta\\Licenta-BACKEND\\Backend\\Backend.DataAbstraction\\IHashingGenerator.cs",
               "RelativeToolTip": "Backend.DataAbstraction\\IHashingGenerator.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAXAAAA",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-11T13:23:37.353Z"
+              "WhenOpened": "2025-06-11T13:23:37.353Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 20,
               "Title": "ControllerBaseExtension.cs",
               "DocumentMoniker": "C:\\Users\\Robi\\Desktop\\licenta\\Licenta-BACKEND\\Backend\\Backend\\Controllers\\ControllerBaseExtension.cs",
               "RelativeDocumentMoniker": "Backend\\Controllers\\ControllerBaseExtension.cs",
@@ -931,7 +1031,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 24,
               "Title": "GenericGetByFilterValidator.cs",
               "DocumentMoniker": "C:\\Users\\Robi\\Desktop\\licenta\\Licenta-BACKEND\\Backend\\Backend.BusinessLogic\\Generic\\GetByFilter\\GenericGetByFilterValidator.cs",
               "RelativeDocumentMoniker": "Backend.BusinessLogic\\Generic\\GetByFilter\\GenericGetByFilterValidator.cs",
@@ -944,7 +1044,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 26,
               "Title": "WeatherForecastController.cs",
               "DocumentMoniker": "C:\\Users\\Robi\\Desktop\\licenta\\Licenta-BACKEND\\Backend\\Backend\\Controllers\\WeatherForecastController.cs",
               "RelativeDocumentMoniker": "Backend\\Controllers\\WeatherForecastController.cs",
@@ -957,7 +1057,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 38,
               "Title": "GetUserDto.cs",
               "DocumentMoniker": "C:\\Users\\Robi\\Desktop\\licenta\\Licenta-BACKEND\\Backend\\Backend.CommonDomain\\UserCommon\\GetUserDto.cs",
               "RelativeDocumentMoniker": "Backend.CommonDomain\\UserCommon\\GetUserDto.cs",
@@ -970,7 +1070,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 17,
               "Title": "GenericGetByFilterResponse.cs",
               "DocumentMoniker": "C:\\Users\\Robi\\Desktop\\licenta\\Licenta-BACKEND\\Backend\\Backend.BusinessLogic\\Generic\\GetByFilter\\GenericGetByFilterResponse.cs",
               "RelativeDocumentMoniker": "Backend.BusinessLogic\\Generic\\GetByFilter\\GenericGetByFilterResponse.cs",
@@ -983,31 +1083,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 58,
+              "DocumentIndex": 64,
               "Title": "GenericGetByIdResponse.cs",
               "DocumentMoniker": "C:\\Users\\Robi\\Desktop\\licenta\\Licenta-BACKEND\\Backend\\Backend.BusinessLogic\\Generic\\Get\\GenericGetByIdResponse.cs",
               "RelativeDocumentMoniker": "Backend.BusinessLogic\\Generic\\Get\\GenericGetByIdResponse.cs",
               "ToolTip": "C:\\Users\\Robi\\Desktop\\licenta\\Licenta-BACKEND\\Backend\\Backend.BusinessLogic\\Generic\\Get\\GenericGetByIdResponse.cs",
               "RelativeToolTip": "Backend.BusinessLogic\\Generic\\Get\\GenericGetByIdResponse.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-18T13:21:23.648Z"
+              "WhenOpened": "2025-06-18T13:21:23.648Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 60,
+              "DocumentIndex": 66,
               "Title": "GetRequest.cs",
               "DocumentMoniker": "C:\\Users\\Robi\\Desktop\\licenta\\Licenta-BACKEND\\Backend\\Backend.BusinessLogic\\Request\\GetRequest.cs",
               "RelativeDocumentMoniker": "Backend.BusinessLogic\\Request\\GetRequest.cs",
               "ToolTip": "C:\\Users\\Robi\\Desktop\\licenta\\Licenta-BACKEND\\Backend\\Backend.BusinessLogic\\Request\\GetRequest.cs",
               "RelativeToolTip": "Backend.BusinessLogic\\Request\\GetRequest.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAATAAAA",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-18T13:22:08.382Z"
+              "WhenOpened": "2025-06-18T13:22:08.382Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 16,
               "Title": "GetResponse.cs",
               "DocumentMoniker": "C:\\Users\\Robi\\Desktop\\licenta\\Licenta-BACKEND\\Backend\\Backend.BusinessLogic\\Response\\GetResponse.cs",
               "RelativeDocumentMoniker": "Backend.BusinessLogic\\Response\\GetResponse.cs",
@@ -1020,55 +1122,59 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 59,
+              "DocumentIndex": 65,
               "Title": "GenericGetByIdRequest.cs",
               "DocumentMoniker": "C:\\Users\\Robi\\Desktop\\licenta\\Licenta-BACKEND\\Backend\\Backend.BusinessLogic\\Generic\\Get\\GenericGetByIdRequest.cs",
               "RelativeDocumentMoniker": "Backend.BusinessLogic\\Generic\\Get\\GenericGetByIdRequest.cs",
               "ToolTip": "C:\\Users\\Robi\\Desktop\\licenta\\Licenta-BACKEND\\Backend\\Backend.BusinessLogic\\Generic\\Get\\GenericGetByIdRequest.cs",
               "RelativeToolTip": "Backend.BusinessLogic\\Generic\\Get\\GenericGetByIdRequest.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-18T13:21:09.958Z"
+              "WhenOpened": "2025-06-18T13:21:09.958Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 57,
+              "DocumentIndex": 63,
               "Title": "GenericGetByValidator.cs",
               "DocumentMoniker": "C:\\Users\\Robi\\Desktop\\licenta\\Licenta-BACKEND\\Backend\\Backend.BusinessLogic\\Generic\\Get\\GenericGetByValidator.cs",
               "RelativeDocumentMoniker": "Backend.BusinessLogic\\Generic\\Get\\GenericGetByValidator.cs",
               "ToolTip": "C:\\Users\\Robi\\Desktop\\licenta\\Licenta-BACKEND\\Backend\\Backend.BusinessLogic\\Generic\\Get\\GenericGetByValidator.cs",
               "RelativeToolTip": "Backend.BusinessLogic\\Generic\\Get\\GenericGetByValidator.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-18T13:21:18.434Z"
+              "WhenOpened": "2025-06-18T13:21:18.434Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 62,
+              "DocumentIndex": 68,
               "Title": "MongoDatabase.cs",
               "DocumentMoniker": "C:\\Users\\Robi\\Desktop\\licenta\\Licenta-BACKEND\\Backend\\Backend.Database\\MongoDatabase.cs",
               "RelativeDocumentMoniker": "Backend.Database\\MongoDatabase.cs",
               "ToolTip": "C:\\Users\\Robi\\Desktop\\licenta\\Licenta-BACKEND\\Backend\\Backend.Database\\MongoDatabase.cs",
               "RelativeToolTip": "Backend.Database\\MongoDatabase.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAEAAAA",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-11T12:59:43.342Z"
+              "WhenOpened": "2025-06-11T12:59:43.342Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 61,
+              "DocumentIndex": 67,
               "Title": "Class1.cs",
               "DocumentMoniker": "C:\\Users\\Robi\\Desktop\\licenta\\Licenta-BACKEND\\Backend\\Backend.DataAbstraction\\Class1.cs",
               "RelativeDocumentMoniker": "Backend.DataAbstraction\\Class1.cs",
               "ToolTip": "C:\\Users\\Robi\\Desktop\\licenta\\Licenta-BACKEND\\Backend\\Backend.DataAbstraction\\Class1.cs",
               "RelativeToolTip": "Backend.DataAbstraction\\Class1.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-11T12:46:00.762Z"
+              "WhenOpened": "2025-06-11T12:46:00.762Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 37,
               "Title": "CreateUserDto.cs",
               "DocumentMoniker": "C:\\Users\\Robi\\Desktop\\licenta\\Licenta-BACKEND\\Backend\\Backend.CommonDomain\\UserCommon\\CreateUserDto.cs",
               "RelativeDocumentMoniker": "Backend.CommonDomain\\UserCommon\\CreateUserDto.cs",
@@ -1081,43 +1187,46 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 63,
+              "DocumentIndex": 69,
               "Title": "Class1.cs",
               "DocumentMoniker": "C:\\Users\\Robi\\Desktop\\licenta\\Licenta-BACKEND\\Backend\\Backend.BusinessLogic\\Class1.cs",
               "RelativeDocumentMoniker": "Backend.BusinessLogic\\Class1.cs",
               "ToolTip": "C:\\Users\\Robi\\Desktop\\licenta\\Licenta-BACKEND\\Backend\\Backend.BusinessLogic\\Class1.cs",
               "RelativeToolTip": "Backend.BusinessLogic\\Class1.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-11T12:46:30.019Z"
+              "WhenOpened": "2025-06-11T12:46:30.019Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 64,
+              "DocumentIndex": 70,
               "Title": "UserRepository.cs",
               "DocumentMoniker": "C:\\Users\\Robi\\Desktop\\licenta\\Licenta-BACKEND\\Backend\\Backend.Repositorie\\UserRepository.cs",
               "RelativeDocumentMoniker": "Backend.Repositorie\\UserRepository.cs",
               "ToolTip": "C:\\Users\\Robi\\Desktop\\licenta\\Licenta-BACKEND\\Backend\\Backend.Repositorie\\UserRepository.cs",
               "RelativeToolTip": "Backend.Repositorie\\UserRepository.cs",
-              "ViewState": "AQIAACAAAAAAAAAAAAAEwCkAAAATAAAA",
+              "ViewState": "AgIAACAAAAAAAAAAAAAEwCkAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-11T13:44:38.551Z"
+              "WhenOpened": "2025-06-11T13:44:38.551Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 65,
+              "DocumentIndex": 71,
               "Title": "UserSecurity.cs",
               "DocumentMoniker": "C:\\Users\\Robi\\Desktop\\licenta\\Licenta-BACKEND\\Backend\\Backend.Domain\\UserDomain\\UserSecurity.cs",
               "RelativeDocumentMoniker": "Backend.Domain\\UserDomain\\UserSecurity.cs",
               "ToolTip": "C:\\Users\\Robi\\Desktop\\licenta\\Licenta-BACKEND\\Backend\\Backend.Domain\\UserDomain\\UserSecurity.cs",
               "RelativeToolTip": "Backend.Domain\\UserDomain\\UserSecurity.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAAAAAA",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-11T13:21:49.607Z"
+              "WhenOpened": "2025-06-11T13:21:49.607Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 29,
               "Title": "EmailSender.cs",
               "DocumentMoniker": "C:\\Users\\Robi\\Desktop\\licenta\\Licenta-BACKEND\\Backend\\Backend.Service\\EmailSender.cs",
               "RelativeDocumentMoniker": "Backend.Service\\EmailSender.cs",
@@ -1130,7 +1239,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 10,
               "Title": "IAzureService.cs",
               "DocumentMoniker": "C:\\Users\\Robi\\Desktop\\licenta\\Licenta-BACKEND\\Backend\\Backend.DataAbstraction\\IAzureService.cs",
               "RelativeDocumentMoniker": "Backend.DataAbstraction\\IAzureService.cs",
@@ -1143,31 +1252,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 67,
+              "DocumentIndex": 73,
               "Title": "Class1.cs",
               "DocumentMoniker": "C:\\Users\\Robi\\Desktop\\licenta\\Licenta-BACKEND\\Backend\\Backend.Repositorie\\Class1.cs",
               "RelativeDocumentMoniker": "Backend.Repositorie\\Class1.cs",
               "ToolTip": "C:\\Users\\Robi\\Desktop\\licenta\\Licenta-BACKEND\\Backend\\Backend.Repositorie\\Class1.cs",
               "RelativeToolTip": "Backend.Repositorie\\Class1.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-11T12:45:27.412Z"
+              "WhenOpened": "2025-06-11T12:45:27.412Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 66,
+              "DocumentIndex": 72,
               "Title": "CreateRequest.cs",
               "DocumentMoniker": "C:\\Users\\Robi\\Desktop\\licenta\\Licenta-BACKEND\\Backend\\Backend.BusinessLogic\\Request\\CreateRequest.cs",
               "RelativeDocumentMoniker": "Backend.BusinessLogic\\Request\\CreateRequest.cs",
               "ToolTip": "C:\\Users\\Robi\\Desktop\\licenta\\Licenta-BACKEND\\Backend\\Backend.BusinessLogic\\Request\\CreateRequest.cs",
               "RelativeToolTip": "Backend.BusinessLogic\\Request\\CreateRequest.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAoAAAASAAAA",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAoAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-12T11:13:35.576Z"
+              "WhenOpened": "2025-06-12T11:13:35.576Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 33,
               "Title": "Backend.DataAbstraction.csproj",
               "DocumentMoniker": "C:\\Users\\Robi\\Desktop\\licenta\\Licenta-BACKEND\\Backend\\Backend.DataAbstraction\\Backend.DataAbstraction.csproj",
               "RelativeDocumentMoniker": "Backend.DataAbstraction\\Backend.DataAbstraction.csproj",
@@ -1180,19 +1291,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 68,
+              "DocumentIndex": 74,
               "Title": "GenericCrudRepository.cs",
               "DocumentMoniker": "C:\\Users\\Robi\\Desktop\\licenta\\Licenta-BACKEND\\Backend\\Backend\\GenericCrudRepository.cs",
               "RelativeDocumentMoniker": "Backend\\GenericCrudRepository.cs",
               "ToolTip": "C:\\Users\\Robi\\Desktop\\licenta\\Licenta-BACKEND\\Backend\\Backend\\GenericCrudRepository.cs",
               "RelativeToolTip": "Backend\\GenericCrudRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAA6wAAAAAAAAAAA",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAiwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-12T11:50:00.753Z"
+              "WhenOpened": "2025-06-12T11:50:00.753Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 27,
               "Title": "InactiveEntity.cs",
               "DocumentMoniker": "C:\\Users\\Robi\\Desktop\\licenta\\Licenta-BACKEND\\Backend\\Backend.CommonDomain\\InactiveEntity.cs",
               "RelativeDocumentMoniker": "Backend.CommonDomain\\InactiveEntity.cs",
@@ -1205,7 +1317,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 34,
               "Title": "Backend.CommonDomain.csproj",
               "DocumentMoniker": "C:\\Users\\Robi\\Desktop\\licenta\\Licenta-BACKEND\\Backend\\Backend.CommonDomain\\Backend.CommonDomain.csproj",
               "RelativeDocumentMoniker": "Backend.CommonDomain\\Backend.CommonDomain.csproj",
@@ -1218,91 +1330,98 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 69,
+              "DocumentIndex": 75,
               "Title": "IDatabaseEntityRepresentation.cs",
               "DocumentMoniker": "C:\\Users\\Robi\\Desktop\\licenta\\Licenta-BACKEND\\Backend\\Backend.DataAbstraction\\IDatabaseEntityRepresentation.cs",
               "RelativeDocumentMoniker": "Backend.DataAbstraction\\IDatabaseEntityRepresentation.cs",
               "ToolTip": "C:\\Users\\Robi\\Desktop\\licenta\\Licenta-BACKEND\\Backend\\Backend.DataAbstraction\\IDatabaseEntityRepresentation.cs",
               "RelativeToolTip": "Backend.DataAbstraction\\IDatabaseEntityRepresentation.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAYAAAAcAAAA",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAYAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-11T13:11:00.143Z"
+              "WhenOpened": "2025-06-11T13:11:00.143Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 70,
+              "DocumentIndex": 76,
               "Title": "MongoDbValidObjectIdExtension.cs",
               "DocumentMoniker": "C:\\Users\\Robi\\Desktop\\licenta\\Licenta-BACKEND\\Backend\\Backend.DataAbstraction\\Extenstions\\MongoDbValidObjectIdExtension.cs",
               "RelativeDocumentMoniker": "Backend.DataAbstraction\\Extenstions\\MongoDbValidObjectIdExtension.cs",
               "ToolTip": "C:\\Users\\Robi\\Desktop\\licenta\\Licenta-BACKEND\\Backend\\Backend.DataAbstraction\\Extenstions\\MongoDbValidObjectIdExtension.cs",
               "RelativeToolTip": "Backend.DataAbstraction\\Extenstions\\MongoDbValidObjectIdExtension.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-12T11:05:32.684Z"
+              "WhenOpened": "2025-06-12T11:05:32.684Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 72,
+              "DocumentIndex": 78,
               "Title": "IRepository.cs",
               "DocumentMoniker": "C:\\Users\\Robi\\Desktop\\licenta\\Licenta-BACKEND\\Backend\\Backend.DataAbstraction\\IRepository.cs",
               "RelativeDocumentMoniker": "Backend.DataAbstraction\\IRepository.cs",
               "ToolTip": "C:\\Users\\Robi\\Desktop\\licenta\\Licenta-BACKEND\\Backend\\Backend.DataAbstraction\\IRepository.cs",
               "RelativeToolTip": "Backend.DataAbstraction\\IRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAeAAAA",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-12T10:48:35.098Z"
+              "WhenOpened": "2025-06-12T10:48:35.098Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 73,
+              "DocumentIndex": 79,
               "Title": "IAuthService.cs",
               "DocumentMoniker": "C:\\Users\\Robi\\Desktop\\licenta\\Licenta-BACKEND\\Backend\\Backend.DataAbstraction\\IAuthService.cs",
               "RelativeDocumentMoniker": "Backend.DataAbstraction\\IAuthService.cs",
               "ToolTip": "C:\\Users\\Robi\\Desktop\\licenta\\Licenta-BACKEND\\Backend\\Backend.DataAbstraction\\IAuthService.cs",
               "RelativeToolTip": "Backend.DataAbstraction\\IAuthService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAYAAAADAAAA",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAYAAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-11T13:45:26.259Z"
+              "WhenOpened": "2025-06-11T13:45:26.259Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 71,
+              "DocumentIndex": 77,
               "Title": "IUserRepository.cs",
               "DocumentMoniker": "C:\\Users\\Robi\\Desktop\\licenta\\Licenta-BACKEND\\Backend\\Backend.Domain\\UserDomain\\IUserRepository.cs",
               "RelativeDocumentMoniker": "Backend.Domain\\UserDomain\\IUserRepository.cs",
               "ToolTip": "C:\\Users\\Robi\\Desktop\\licenta\\Licenta-BACKEND\\Backend\\Backend.Domain\\UserDomain\\IUserRepository.cs",
               "RelativeToolTip": "Backend.Domain\\UserDomain\\IUserRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-11T13:44:08.493Z"
+              "WhenOpened": "2025-06-11T13:44:08.493Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 75,
+              "DocumentIndex": 81,
               "Title": "IJwtConfig.cs",
               "DocumentMoniker": "C:\\Users\\Robi\\Desktop\\licenta\\Licenta-BACKEND\\Backend\\Backend.DataAbstraction\\IJwtConfig.cs",
               "RelativeDocumentMoniker": "Backend.DataAbstraction\\IJwtConfig.cs",
               "ToolTip": "C:\\Users\\Robi\\Desktop\\licenta\\Licenta-BACKEND\\Backend\\Backend.DataAbstraction\\IJwtConfig.cs",
               "RelativeToolTip": "Backend.DataAbstraction\\IJwtConfig.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAqwA0AAAAAAAAA",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-11T13:52:09.786Z"
+              "WhenOpened": "2025-06-11T13:52:09.786Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 74,
+              "DocumentIndex": 80,
               "Title": "IEmailSender.cs",
               "DocumentMoniker": "C:\\Users\\Robi\\Desktop\\licenta\\Licenta-BACKEND\\Backend\\Backend.DataAbstraction\\IEmailSender.cs",
               "RelativeDocumentMoniker": "Backend.DataAbstraction\\IEmailSender.cs",
               "ToolTip": "C:\\Users\\Robi\\Desktop\\licenta\\Licenta-BACKEND\\Backend\\Backend.DataAbstraction\\IEmailSender.cs",
               "RelativeToolTip": "Backend.DataAbstraction\\IEmailSender.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-11T14:01:55.357Z"
+              "WhenOpened": "2025-06-11T14:01:55.357Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 40,
               "Title": "IEmailConfig.cs",
               "DocumentMoniker": "C:\\Users\\Robi\\Desktop\\licenta\\Licenta-BACKEND\\Backend\\Backend.DataAbstraction\\IEmailConfig.cs",
               "RelativeDocumentMoniker": "Backend.DataAbstraction\\IEmailConfig.cs",
@@ -1315,43 +1434,46 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 77,
+              "DocumentIndex": 83,
               "Title": "IDatabase.cs",
               "DocumentMoniker": "C:\\Users\\Robi\\Desktop\\licenta\\Licenta-BACKEND\\Backend\\Backend.DataAbstraction\\IDatabase.cs",
               "RelativeDocumentMoniker": "Backend.DataAbstraction\\IDatabase.cs",
               "ToolTip": "C:\\Users\\Robi\\Desktop\\licenta\\Licenta-BACKEND\\Backend\\Backend.DataAbstraction\\IDatabase.cs",
               "RelativeToolTip": "Backend.DataAbstraction\\IDatabase.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAQAAAARAAAA",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAQAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-11T13:05:19.9Z"
+              "WhenOpened": "2025-06-11T13:05:19.9Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 76,
+              "DocumentIndex": 82,
               "Title": "Class1.cs",
               "DocumentMoniker": "C:\\Users\\Robi\\Desktop\\licenta\\Licenta-BACKEND\\Backend\\Backend.Domain\\Class1.cs",
               "RelativeDocumentMoniker": "Backend.Domain\\Class1.cs",
               "ToolTip": "C:\\Users\\Robi\\Desktop\\licenta\\Licenta-BACKEND\\Backend\\Backend.Domain\\Class1.cs",
               "RelativeToolTip": "Backend.Domain\\Class1.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-11T12:45:13.258Z"
+              "WhenOpened": "2025-06-11T12:45:13.258Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 78,
+              "DocumentIndex": 6,
               "Title": "IDatabaseConfiguration.cs",
               "DocumentMoniker": "C:\\Users\\Robi\\Desktop\\licenta\\Licenta-BACKEND\\Backend\\Backend.DataAbstraction\\IDatabaseConfiguration.cs",
               "RelativeDocumentMoniker": "Backend.DataAbstraction\\IDatabaseConfiguration.cs",
               "ToolTip": "C:\\Users\\Robi\\Desktop\\licenta\\Licenta-BACKEND\\Backend\\Backend.DataAbstraction\\IDatabaseConfiguration.cs",
               "RelativeToolTip": "Backend.DataAbstraction\\IDatabaseConfiguration.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-11T12:50:08.715Z"
+              "WhenOpened": "2025-06-11T12:50:08.715Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 30,
               "Title": "Class1.cs",
               "DocumentMoniker": "C:\\Users\\Robi\\Desktop\\licenta\\Licenta-BACKEND\\Backend\\Backend.CommonDomain\\Class1.cs",
               "RelativeDocumentMoniker": "Backend.CommonDomain\\Class1.cs",
@@ -1364,27 +1486,29 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 79,
+              "DocumentIndex": 84,
               "Title": "Class1.cs",
               "DocumentMoniker": "C:\\Users\\Robi\\Desktop\\licenta\\Licenta-BACKEND\\Backend\\Backend.Database\\Class1.cs",
               "RelativeDocumentMoniker": "Backend.Database\\Class1.cs",
               "ToolTip": "C:\\Users\\Robi\\Desktop\\licenta\\Licenta-BACKEND\\Backend\\Backend.Database\\Class1.cs",
               "RelativeToolTip": "Backend.Database\\Class1.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-11T12:45:49.622Z"
+              "WhenOpened": "2025-06-11T12:45:49.622Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 80,
+              "DocumentIndex": 85,
               "Title": "Class1.cs",
               "DocumentMoniker": "C:\\Users\\Robi\\Desktop\\licenta\\Licenta-BACKEND\\Backend\\Backend.Service\\Class1.cs",
               "RelativeDocumentMoniker": "Backend.Service\\Class1.cs",
               "ToolTip": "C:\\Users\\Robi\\Desktop\\licenta\\Licenta-BACKEND\\Backend\\Backend.Service\\Class1.cs",
               "RelativeToolTip": "Backend.Service\\Class1.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-11T12:45:39.114Z"
+              "WhenOpened": "2025-06-11T12:45:39.114Z",
+              "EditorCaption": ""
             }
           ]
         }

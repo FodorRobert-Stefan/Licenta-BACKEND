@@ -9,6 +9,7 @@ using Backend.Database;
 using Backend.Domain.UserDomain;
 using Backend.Extensions;
 using Backend.Middleware;
+using Backend.Service;
 using Backend.Services;
 using FluentValidation;
 using FluentValidation.AspNetCore;
@@ -85,6 +86,10 @@ internal class Program
         policy.AllowAnyOrigin().AllowAnyHeader().AllowAnyMethod());
     });
 
+    builder.Services.Configure<AzureBlobStorageSettings>(builder.Configuration.GetSection("AzureBlobStorage"));
+    builder.Services.AddSingleton<IAzureBlobBackupService, AzureBlobBackupService>();
+    builder.Services.AddHostedService<BackupService>();
+
     var app = builder.Build();
 
     if (app.Environment.IsDevelopment())
@@ -92,7 +97,7 @@ internal class Program
       app.UseSwagger();
       app.UseSwaggerUI();
     }
-
+   
     MongoClassMapRegistration.RegisterAll();
 
     app.UseHttpsRedirection();

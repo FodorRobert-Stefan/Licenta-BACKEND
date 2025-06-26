@@ -183,3 +183,15 @@ C:\Users\Robi\Desktop\licenta\Licenta-BACKEND\Backend\Backend\obj\Debug\net8.0\r
 C:\Users\Robi\Desktop\licenta\Licenta-BACKEND\Backend\Backend\obj\Debug\net8.0\Backend.pdb
 C:\Users\Robi\Desktop\licenta\Licenta-BACKEND\Backend\Backend\obj\Debug\net8.0\Backend.genruntimeconfig.cache
 C:\Users\Robi\Desktop\licenta\Licenta-BACKEND\Backend\Backend\obj\Debug\net8.0\ref\Backend.dll
+C:\Users\Robi\Desktop\licenta\Licenta-BACKEND\Backend\Backend\obj\Debug\net8.0\Backend.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Robi\Desktop\licenta\Licenta-BACKEND\Backend\Backend\bin\Debug\net8.0\Azure.Core.dll
+C:\Users\Robi\Desktop\licenta\Licenta-BACKEND\Backend\Backend\bin\Debug\net8.0\Azure.Storage.Blobs.dll
+C:\Users\Robi\Desktop\licenta\Licenta-BACKEND\Backend\Backend\bin\Debug\net8.0\Azure.Storage.Common.dll
+C:\Users\Robi\Desktop\licenta\Licenta-BACKEND\Backend\Backend\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Robi\Desktop\licenta\Licenta-BACKEND\Backend\Backend\bin\Debug\net8.0\Polly.dll
+C:\Users\Robi\Desktop\licenta\Licenta-BACKEND\Backend\Backend\bin\Debug\net8.0\Polly.Core.dll
+C:\Users\Robi\Desktop\licenta\Licenta-BACKEND\Backend\Backend\bin\Debug\net8.0\System.ClientModel.dll
+C:\Users\Robi\Desktop\licenta\Licenta-BACKEND\Backend\Backend\bin\Debug\net8.0\System.IO.Hashing.dll
+C:\Users\Robi\Desktop\licenta\Licenta-BACKEND\Backend\Backend\bin\Debug\net8.0\System.Memory.Data.dll
+C:\Users\Robi\Desktop\licenta\Licenta-BACKEND\Backend\Backend\bin\Debug\net8.0\Backend.BackupServices.dll
+C:\Users\Robi\Desktop\licenta\Licenta-BACKEND\Backend\Backend\bin\Debug\net8.0\Backend.BackupServices.pdb

@@ -1,0 +1,91 @@
+2025-06-26 20:17:07.746 +03:00 [INF] Now listening on: https://localhost:7011
+2025-06-26 20:17:07.807 +03:00 [INF] Now listening on: http://localhost:5001
+2025-06-26 20:17:18.751 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-06-26 20:17:18.752 +03:00 [INF] Hosting environment: Development
+2025-06-26 20:17:18.752 +03:00 [INF] Content root path: C:\Users\Robi\Desktop\licenta\Licenta-BACKEND\Backend\Backend
+2025-06-26 20:19:00.189 +03:00 [INF] Now listening on: https://localhost:7011
+2025-06-26 20:19:00.220 +03:00 [INF] Now listening on: http://localhost:5001
+2025-06-26 20:19:00.401 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-06-26 20:19:00.402 +03:00 [INF] Hosting environment: Development
+2025-06-26 20:19:00.402 +03:00 [INF] Content root path: C:\Users\Robi\Desktop\licenta\Licenta-BACKEND\Backend\Backend
+2025-06-26 20:19:12.827 +03:00 [ERR] BackgroundService failed
+System.IO.IOException: The filename, directory name, or volume label syntax is incorrect. : 'C:\Users\Robi\Desktop\licenta\Licenta-BACKEND\Backend\Backend\backups\6\26\2025 8:18:59 PM\User.json'
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.CreateFile(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.Strategies.OSFileStreamStrategy..ctor(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.Strategies.FileStreamHelpers.ChooseStrategyCore(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.File.OpenRead(String path)
+   at Backend.Service.AzureBlobBackupService.<>c__DisplayClass2_0.<<UploadWithRetryAsync>b__1>d.MoveNext() in C:\Users\Robi\Desktop\licenta\Licenta-BACKEND\Backend\Backend.Service\AzureBlobStorageService.cs:line 30
+--- End of stack trace from previous location ---
+   at Polly.AsyncPolicy.<>c__DisplayClass44_0.<<ImplementationAsync>b__0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Polly.Retry.AsyncRetryEngine.ImplementationAsync[TResult](Func`3 action, Context context, ExceptionPredicates shouldRetryExceptionPredicates, ResultPredicates`1 shouldRetryResultPredicates, Func`5 onRetryAsync, CancellationToken cancellationToken, Int32 permittedRetryCount, IEnumerable`1 sleepDurationsEnumerable, Func`4 sleepDurationProvider, Boolean continueOnCapturedContext)
+   at Polly.AsyncPolicy.ExecuteInternalAsync(Func`3 action, Context context, Boolean continueOnCapturedContext, CancellationToken cancellationToken)
+   at Backend.Service.AzureBlobBackupService.UploadWithRetryAsync(String filePath, String blobName) in C:\Users\Robi\Desktop\licenta\Licenta-BACKEND\Backend\Backend.Service\AzureBlobStorageService.cs:line 23
+   at BackupService.ExecuteAsync(CancellationToken stoppingToken) in C:\Users\Robi\Desktop\licenta\Licenta-BACKEND\Backend\Backend.BackupServices\BackupService.cs:line 35
+   at Microsoft.Extensions.Hosting.Internal.Host.TryExecuteBackgroundServiceAsync(BackgroundService backgroundService)
+2025-06-26 20:19:12.895 +03:00 [FTL] The HostOptions.BackgroundServiceExceptionBehavior is configured to StopHost. A BackgroundService has thrown an unhandled exception, and the IHost instance is stopping. To avoid this behavior, configure this to Ignore; however the BackgroundService will not be restarted.
+System.IO.IOException: The filename, directory name, or volume label syntax is incorrect. : 'C:\Users\Robi\Desktop\licenta\Licenta-BACKEND\Backend\Backend\backups\6\26\2025 8:18:59 PM\User.json'
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.CreateFile(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.Strategies.OSFileStreamStrategy..ctor(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.Strategies.FileStreamHelpers.ChooseStrategyCore(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.File.OpenRead(String path)
+   at Backend.Service.AzureBlobBackupService.<>c__DisplayClass2_0.<<UploadWithRetryAsync>b__1>d.MoveNext() in C:\Users\Robi\Desktop\licenta\Licenta-BACKEND\Backend\Backend.Service\AzureBlobStorageService.cs:line 30
+--- End of stack trace from previous location ---
+   at Polly.AsyncPolicy.<>c__DisplayClass44_0.<<ImplementationAsync>b__0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Polly.Retry.AsyncRetryEngine.ImplementationAsync[TResult](Func`3 action, Context context, ExceptionPredicates shouldRetryExceptionPredicates, ResultPredicates`1 shouldRetryResultPredicates, Func`5 onRetryAsync, CancellationToken cancellationToken, Int32 permittedRetryCount, IEnumerable`1 sleepDurationsEnumerable, Func`4 sleepDurationProvider, Boolean continueOnCapturedContext)
+   at Polly.AsyncPolicy.ExecuteInternalAsync(Func`3 action, Context context, Boolean continueOnCapturedContext, CancellationToken cancellationToken)
+   at Backend.Service.AzureBlobBackupService.UploadWithRetryAsync(String filePath, String blobName) in C:\Users\Robi\Desktop\licenta\Licenta-BACKEND\Backend\Backend.Service\AzureBlobStorageService.cs:line 23
+   at BackupService.ExecuteAsync(CancellationToken stoppingToken) in C:\Users\Robi\Desktop\licenta\Licenta-BACKEND\Backend\Backend.BackupServices\BackupService.cs:line 35
+   at Microsoft.Extensions.Hosting.Internal.Host.TryExecuteBackgroundServiceAsync(BackgroundService backgroundService)
+2025-06-26 20:19:12.897 +03:00 [INF] Application is shutting down...
+2025-06-26 20:19:39.157 +03:00 [INF] Now listening on: https://localhost:7011
+2025-06-26 20:19:39.193 +03:00 [INF] Now listening on: http://localhost:5001
+2025-06-26 20:19:39.531 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-06-26 20:19:39.532 +03:00 [INF] Hosting environment: Development
+2025-06-26 20:19:39.532 +03:00 [INF] Content root path: C:\Users\Robi\Desktop\licenta\Licenta-BACKEND\Backend\Backend
+2025-06-26 20:19:57.440 +03:00 [ERR] BackgroundService failed
+System.IO.IOException: The filename, directory name, or volume label syntax is incorrect. : 'C:\Users\Robi\Desktop\licenta\Licenta-BACKEND\Backend\Backend\backups\6\26\2025 8:19:36 PM\User.json'
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.CreateFile(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.Strategies.OSFileStreamStrategy..ctor(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.Strategies.FileStreamHelpers.ChooseStrategyCore(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.File.OpenRead(String path)
+   at Backend.Service.AzureBlobBackupService.<>c__DisplayClass2_0.<<UploadWithRetryAsync>b__1>d.MoveNext() in C:\Users\Robi\Desktop\licenta\Licenta-BACKEND\Backend\Backend.Service\AzureBlobStorageService.cs:line 30
+--- End of stack trace from previous location ---
+   at Polly.AsyncPolicy.<>c__DisplayClass44_0.<<ImplementationAsync>b__0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Polly.Retry.AsyncRetryEngine.ImplementationAsync[TResult](Func`3 action, Context context, ExceptionPredicates shouldRetryExceptionPredicates, ResultPredicates`1 shouldRetryResultPredicates, Func`5 onRetryAsync, CancellationToken cancellationToken, Int32 permittedRetryCount, IEnumerable`1 sleepDurationsEnumerable, Func`4 sleepDurationProvider, Boolean continueOnCapturedContext)
+   at Polly.AsyncPolicy.ExecuteInternalAsync(Func`3 action, Context context, Boolean continueOnCapturedContext, CancellationToken cancellationToken)
+   at Backend.Service.AzureBlobBackupService.UploadWithRetryAsync(String filePath, String blobName) in C:\Users\Robi\Desktop\licenta\Licenta-BACKEND\Backend\Backend.Service\AzureBlobStorageService.cs:line 23
+   at BackupService.ExecuteAsync(CancellationToken stoppingToken) in C:\Users\Robi\Desktop\licenta\Licenta-BACKEND\Backend\Backend.BackupServices\BackupService.cs:line 35
+   at Microsoft.Extensions.Hosting.Internal.Host.TryExecuteBackgroundServiceAsync(BackgroundService backgroundService)
+2025-06-26 20:19:57.462 +03:00 [FTL] The HostOptions.BackgroundServiceExceptionBehavior is configured to StopHost. A BackgroundService has thrown an unhandled exception, and the IHost instance is stopping. To avoid this behavior, configure this to Ignore; however the BackgroundService will not be restarted.
+System.IO.IOException: The filename, directory name, or volume label syntax is incorrect. : 'C:\Users\Robi\Desktop\licenta\Licenta-BACKEND\Backend\Backend\backups\6\26\2025 8:19:36 PM\User.json'
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.CreateFile(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.Strategies.OSFileStreamStrategy..ctor(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.Strategies.FileStreamHelpers.ChooseStrategyCore(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.File.OpenRead(String path)
+   at Backend.Service.AzureBlobBackupService.<>c__DisplayClass2_0.<<UploadWithRetryAsync>b__1>d.MoveNext() in C:\Users\Robi\Desktop\licenta\Licenta-BACKEND\Backend\Backend.Service\AzureBlobStorageService.cs:line 30
+--- End of stack trace from previous location ---
+   at Polly.AsyncPolicy.<>c__DisplayClass44_0.<<ImplementationAsync>b__0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Polly.Retry.AsyncRetryEngine.ImplementationAsync[TResult](Func`3 action, Context context, ExceptionPredicates shouldRetryExceptionPredicates, ResultPredicates`1 shouldRetryResultPredicates, Func`5 onRetryAsync, CancellationToken cancellationToken, Int32 permittedRetryCount, IEnumerable`1 sleepDurationsEnumerable, Func`4 sleepDurationProvider, Boolean continueOnCapturedContext)
+   at Polly.AsyncPolicy.ExecuteInternalAsync(Func`3 action, Context context, Boolean continueOnCapturedContext, CancellationToken cancellationToken)
+   at Backend.Service.AzureBlobBackupService.UploadWithRetryAsync(String filePath, String blobName) in C:\Users\Robi\Desktop\licenta\Licenta-BACKEND\Backend\Backend.Service\AzureBlobStorageService.cs:line 23
+   at BackupService.ExecuteAsync(CancellationToken stoppingToken) in C:\Users\Robi\Desktop\licenta\Licenta-BACKEND\Backend\Backend.BackupServices\BackupService.cs:line 35
+   at Microsoft.Extensions.Hosting.Internal.Host.TryExecuteBackgroundServiceAsync(BackgroundService backgroundService)
+2025-06-26 20:19:57.464 +03:00 [INF] Application is shutting down...
+2025-06-26 20:21:04.969 +03:00 [INF] Now listening on: https://localhost:7011
+2025-06-26 20:21:04.995 +03:00 [INF] Now listening on: http://localhost:5001
+2025-06-26 20:21:05.249 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-06-26 20:21:05.249 +03:00 [INF] Hosting environment: Development
+2025-06-26 20:21:05.250 +03:00 [INF] Content root path: C:\Users\Robi\Desktop\licenta\Licenta-BACKEND\Backend\Backend
+2025-06-26 20:22:56.722 +03:00 [INF] Now listening on: https://localhost:7011
+2025-06-26 20:22:56.772 +03:00 [INF] Now listening on: http://localhost:5001
+2025-06-26 20:22:56.984 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-06-26 20:22:56.985 +03:00 [INF] Hosting environment: Development
+2025-06-26 20:22:56.985 +03:00 [INF] Content root path: C:\Users\Robi\Desktop\licenta\Licenta-BACKEND\Backend\Backend

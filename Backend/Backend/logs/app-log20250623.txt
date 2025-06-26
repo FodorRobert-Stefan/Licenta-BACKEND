@@ -404,3 +404,13 @@ System.NullReferenceException: Object reference not set to an instance of an obj
 2025-06-23 21:16:40.288 +03:00 [INF] Application started. Press Ctrl+C to shut down.
 2025-06-23 21:16:40.289 +03:00 [INF] Hosting environment: Development
 2025-06-23 21:16:40.289 +03:00 [INF] Content root path: C:\Users\Robi\Desktop\licenta\Licenta-BACKEND\Backend\Backend
+2025-06-23 22:07:55.325 +03:00 [INF] Now listening on: https://localhost:7011
+2025-06-23 22:07:55.352 +03:00 [INF] Now listening on: http://localhost:5001
+2025-06-23 22:07:55.439 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-06-23 22:07:55.439 +03:00 [INF] Hosting environment: Development
+2025-06-23 22:07:55.440 +03:00 [INF] Content root path: C:\Users\Robi\Desktop\licenta\Licenta-BACKEND\Backend\Backend
+2025-06-23 22:39:37.092 +03:00 [INF] Now listening on: https://localhost:7011
+2025-06-23 22:39:37.134 +03:00 [INF] Now listening on: http://localhost:5001
+2025-06-23 22:39:37.271 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-06-23 22:39:37.272 +03:00 [INF] Hosting environment: Development
+2025-06-23 22:39:37.272 +03:00 [INF] Content root path: C:\Users\Robi\Desktop\licenta\Licenta-BACKEND\Backend\Backend
