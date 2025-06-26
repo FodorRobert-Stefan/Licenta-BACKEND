@@ -1,7 +1,5 @@
 ﻿using Backend.BusinessLogic.Generic.Create;
-using Backend.BusinessLogic.Generic.Get;
 using Backend.CommonDomain;
-using Backend.CommonDomain.UserCommon;
 using Backend.CommonDomainu;
 using Backend.DataAbstraction;
 using Backend.DataAbstraction.IAzure;
@@ -90,6 +88,15 @@ internal class Program
     builder.Services.AddSingleton<IAzureBlobBackupService, AzureBlobBackupService>();
     builder.Services.AddHostedService<BackupService>();
 
+    builder.Services.Configure<CryptoSettings>(
+    builder.Configuration.GetSection("CryptoSettings"));
+
+    builder.Services.AddScoped<IHybridCryptoService>(provider =>
+    {
+      var cryptoSettings = provider.GetRequiredService<IOptions<CryptoSettings>>().Value;
+      return new HybridCryptoService(cryptoSettings.RsaPrivateKeyBase64);
+    });
+
     var app = builder.Build();
 
     if (app.Environment.IsDevelopment())
@@ -97,7 +104,7 @@ internal class Program
       app.UseSwagger();
       app.UseSwaggerUI();
     }
-   
+
     MongoClassMapRegistration.RegisterAll();
 
     app.UseHttpsRedirection();
